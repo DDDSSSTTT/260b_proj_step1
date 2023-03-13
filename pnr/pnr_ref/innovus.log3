@@ -1,0 +1,988 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v19.17-s077_1, built Tue Dec 1 11:09:44 PST 2020
+Options:	
+Date:		Mon Feb 20 16:51:16 2023
+Host:		ieng6-ece-07.ucsd.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz 20480KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	19.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> is_common_ui_mode
+<CMD> restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat add
+#% Begin load design ... (date=02/20 16:52:52, mem=483.6M)
+Set Default Input Pin Transition as 0.1 ps.
+Loading design 'add' saved by 'Innovus' '19.17-s077_1' on 'Mon Feb 20 13:59:36 2023'.
+% Begin Load MMMC data ... (date=02/20 16:52:52, mem=485.9M)
+% End Load MMMC data ... (date=02/20 16:52:52, total cpu=0:00:00.0, real=0:00:00.0, peak res=486.0M, current mem=486.0M)
+Cmin Cmax
+
+Loading LEF file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef ...
+WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 28.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 867.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 877.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1014.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1024.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1161.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1171.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1308.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1318.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1372.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1383.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1604.
+WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1614.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1769.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1771.
+WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1772.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1776.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1778.
+WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1779.
+WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1783.
+Set DBUPerIGU to M2 pitch 400.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Type 'man IMPLF-200' for more detail.
+
+viaInitial starts at Mon Feb 20 16:52:52 2023
+viaInitial ends at Mon Feb 20 16:52:52 2023
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/viewDefinition.tcl
+Reading WC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gpluswc.lib' ...
+Read 811 cells in library 'tcbn65gpluswc' 
+Reading BC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gplusbc.lib' ...
+Read 811 cells in library 'tcbn65gplusbc' 
+*** End library_loading (cpu=0.04min, real=0.05min, mem=38.0M, fe_cpu=0.58min, fe_real=1.65min, fe_mem=752.2M) ***
+% Begin Load netlist data ... (date=02/20 16:52:55, mem=515.6M)
+*** Begin netlist parsing (mem=752.2M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 811 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilogBinary netlist '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.v.bin'
+Reading binary database version 2 in 1-threaded mode
+
+*** Memory Usage v#1 (Current mem = 758.152M, initial mem = 283.785M) ***
+*** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=758.2M) ***
+% End Load netlist data ... (date=02/20 16:52:55, total cpu=0:00:00.0, real=0:00:00.0, peak res=529.9M, current mem=529.9M)
+Set top cell to add.
+Hooked 1622 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell add ...
+*** Netlist is unique.
+** info: there are 1658 modules.
+** info: there are 28 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 811.578M, initial mem = 283.785M) ***
+*info: set bottom ioPad orient R0
+**WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+Loading preference file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/gui.pref.tcl ...
+##  Process: 65            (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+Stripe will break at block ring.
+*Info: initialize multi-corner CTS.
+Reading timing constraints file '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/mmmc/modes/CON/CON.sdc' ...
+Current (total cpu=0:00:35.8, real=0:01:40, peak res=745.3M, current mem=745.3M)
+add
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=764.5M, current mem=764.5M)
+Current (total cpu=0:00:35.9, real=0:01:40, peak res=764.5M, current mem=764.5M)
+Reading latency file '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/mmmc/views/WC_VIEW/latency.sdc' ...
+Reading latency file '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/mmmc/views/BC_VIEW/latency.sdc' ...
+Total number of combinational cells: 497
+Total number of sequential cells: 303
+Total number of tristate cells: 11
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 BUFFD20 BUFFD24 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
+Total number of usable buffers: 27
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16 INVD20 INVD24
+Total number of usable inverters: 27
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
+Total number of identified usable delay cells: 9
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+% Begin Load MMMC data post ... (date=02/20 16:52:57, mem=787.3M)
+% End Load MMMC data post ... (date=02/20 16:52:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=787.3M, current mem=785.7M)
+Reading floorplan file - /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.fp.gz (mem = 1030.0M).
+% Begin Load floorplan data ... (date=02/20 16:52:57, mem=785.7M)
+*info: reset 49 existing net BottomPreferredLayer and AvoidDetour
+net ignore based on current view = 0
+Deleting old partition specification.
+Set FPlanBox to (0 0 81600 76000)
+**WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+ ... processed partition successfully.
+Reading binary special route file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.fp.spr.gz (Created by Innovus v19.17-s077_1 on Mon Feb 20 13:59:33 2023, version: 1)
+Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=786.4M, current mem=786.4M)
+There are 1 nets with weight being set
+There are 1 nets with bottomPreferredRoutingLayer being set
+There are 1 nets with avoidDetour being set
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+% End Load floorplan data ... (date=02/20 16:52:57, total cpu=0:00:00.1, real=0:00:00.0, peak res=787.8M, current mem=787.8M)
+Reading congestion map file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.route.congmap.gz ...
+% Begin Load SymbolTable ... (date=02/20 16:52:57, mem=788.1M)
+Suppress "**WARN ..." messages.
+Un-suppress "**WARN ..." messages.
+% End Load SymbolTable ... (date=02/20 16:52:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=788.2M, current mem=788.2M)
+Loading place ...
+% Begin Load placement data ... (date=02/20 16:52:57, mem=788.2M)
+Reading placement file - /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.place.gz.
+** Reading stdCellPlacement_binary (Created by Innovus v19.17-s077_1 on Mon Feb 20 13:59:34 2023, version# 2) ...
+Read Views for adaptive view pruning ...
+Read 0 views from Binary DB for adaptive view pruning
+*** Checked 2 GNC rules.
+*** applyConnectGlobalNets disabled.
+*** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1033.0M) ***
+Total net length = 4.925e+02 (3.431e+02 1.494e+02) (ext = 3.001e+02)
+% End Load placement data ... (date=02/20 16:52:57, total cpu=0:00:00.0, real=0:00:00.0, peak res=789.1M, current mem=789.1M)
+Reading PG file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.pg.gz
+*** Completed restorePGFile (cpu=0:00:00.0 real=0:00:01.0 mem=1030.0M) ***
+% Begin Load routing data ... (date=02/20 16:52:58, mem=789.2M)
+Reading routing file - /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.route.gz.
+Reading Innovus routing data (Created by Innovus v19.17-s077_1 on Mon Feb 20 13:59:34 2023 Format: 19.1) ...
+*** Total 49 nets are successfully restored.
+*** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1034.0M) ***
+% End Load routing data ... (date=02/20 16:52:58, total cpu=0:00:00.0, real=0:00:00.0, peak res=794.6M, current mem=793.6M)
+TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+Reading property file /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/add.prop
+*** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1039.0M) ***
+Set Default Input Pin Transition as 0.1 ps.
+Extraction setup Started 
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cworst.captable ...
+**WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cbest.captable ...
+**WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WC_VIEW
+    RC-Corner Name        : Cmax
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cworst.captable'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+ 
+ Analysis View: BC_VIEW
+    RC-Corner Name        : Cmin
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cbest.captable'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Start generating vias ...
+#Skip building auto via since it is not turned on.
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Via generation completed.
+% Begin Load power constraints ... (date=02/20 16:52:59, mem=822.7M)
+'set_default_switching_activity' finished successfully.
+** WARN:  (VOLTUS_POWR-3212): The 'set_power_analysis_mode -leakage_power_view |-dynamic_power_view|-analysis_view' will be obsolete in 18.20 release. Use 'set_analysis_view -leakage <> | -dynamic <>' to set leakage and dynamic power views.
+
+% End Load power constraints ... (date=02/20 16:52:59, total cpu=0:00:00.0, real=0:00:00.0, peak res=822.9M, current mem=822.9M)
+% Begin load AAE data ... (date=02/20 16:52:59, mem=822.9M)
+AAE DB initialization (MEM=1077.91 CPU=0:00:00.3 REAL=0:00:00.0) 
+% End load AAE data ... (date=02/20 16:52:59, total cpu=0:00:00.6, real=0:00:00.0, peak res=827.9M, current mem=827.9M)
+Restoring CCOpt config...
+  Extracting original clock gating for clk...
+    clock_tree clk contains 18 sinks and 0 clock gates.
+    Extraction for clk complete.
+  Extracting original clock gating for clk done.
+  The skew group clk/CON was created. It contains 18 sinks and 1 sources.
+  The skew group clk/CON was created. It contains 18 sinks and 1 sources.
+Restoring CCOpt config done.
+Total number of combinational cells: 497
+Total number of sequential cells: 303
+Total number of tristate cells: 11
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16
+Total number of usable buffers: 18
+List of unusable buffers: BUFFD20 BUFFD24 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
+Total number of unusable buffers: 9
+List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16
+Total number of usable inverters: 18
+List of unusable inverters: CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD20 INVD24
+Total number of unusable inverters: 9
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
+Total number of identified unusable delay cells: 9
+All delay cells are dont_use. Buffers will be used to fix hold violations.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.17-s077_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+#% End load design ... (date=02/20 16:52:59, total cpu=0:00:06.5, real=0:00:07.0, peak res=832.8M, current mem=832.7M)
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
+WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   IMPCTE-107           1  The following globals have been obsolete...
+WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+*** Message Summary: 1637 warning(s), 0 error(s)
+
+**ERROR: (VOLTUS-1089):	Activity file () does not exist.
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+** INFO:  (VOLTUS_POWR-3229): Using user defined default frequency 100MHz for power calculation.
+
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope add_tb.add_instance -start 9 -end 23 -block {} ../rtl_sim/add_tb.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//add.rpt
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    VSS
+           0.9V	    VDD
+Using Power View: WC_VIEW.
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: add
+# Design Mode: 65nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+**WARN: (IMPEXT-3518):	The lower process node is set (using command 'setDesignMode') but the technology file for TQuantus extraction not specified. Therefore, going for postRoute (effortLevel low) extraction instead of recommended extractor 'TQuantus' for lower nodes. Use command 'set_analysis_view/update_rc_corner' to specify the technology file for TQuantus extraction to take place.
+Extraction called for design 'add' of instances=83 and nets=49 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design add.
+RC Extraction called in multi-corner(2) mode.
+**WARN: (IMPEXT-3442):	The version of the capacitance table file being used is obsolete and is no longer recommended. For improved accuracy, generate the capacitance table file using the generateCapTbl command.
+Process corner(s) are loaded.
+ Corner: Cmax
+ Corner: Cmin
+extractDetailRC Option : -outfile /tmp/innovus_temp_2564_ieng6-ece-07.ucsd.edu_s1ding_HUD8eF/add_2564_OVzUrc.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, LEF Resistances]
+      RC Corner Indexes            0       1   
+Capacitance Scaling Factor   : 1.00000 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 1.00000 
+Resistance Scaling Factor    : 1.00000 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 1.00000 
+Clock Res. Scaling Factor    : 1.00000 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1103.7M)
+Extracted 10.4839% (CPU Time= 0:00:00.0  MEM= 1139.7M)
+Extracted 20.5645% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 30.6452% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 40.7258% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 50.8065% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 60.4839% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 70.5645% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 80.6452% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 90.7258% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Extracted 100% (CPU Time= 0:00:00.0  MEM= 1163.7M)
+Number of Extracted Resistors     : 516
+Number of Extracted Ground Cap.   : 507
+Number of Extracted Coupling Cap. : 288
+Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.1fF, relative_c_threshold=1, and total_c_threshold=0fF.
+ Corner: Cmax
+ Corner: Cmin
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1147.7M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.5  Real Time: 0:00:01.0  MEM: 1155.676M)
+AAE_INFO: 1 threads acquired from CTE.
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1155.68)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Total number of fetched objects 47
+AAE_INFO-618: Total number of nets in the design is 49,  93.9 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1279.66 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1252.59 CPU=0:00:00.7 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1252.6M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1252.6M)
+Starting SI iteration 2
+Calculate early delays in OCV mode...
+Calculate late delays in OCV mode...
+Start delay calculation (fullDC) (1 T). (MEM=1231.7)
+Glitch Analysis: View WC_VIEW -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View WC_VIEW -- Total Number of Nets Analyzed = 47. 
+Total number of fetched objects 47
+AAE_INFO-618: Total number of nets in the design is 49,  2.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1237.86 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1237.86 CPU=0:00:00.1 REAL=0:00:00.0)
+
+Begin Power Analysis
+
+             0V	    VSS
+           0.9V	    VDD
+
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=928.46MB/2278.80MB/928.48MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+clk(833.333MHz) Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=928.55MB/2278.80MB/928.55MB)
+
+Parsing VCD file ../rtl_sim/add_tb.vcd
+
+Starting Reading VCD variables
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 10%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 20%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 30%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 40%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 50%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 60%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 70%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 80%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 90%
+
+Finished Reading VCD variables
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+
+Starting Reading VCD toggles
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 10%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 20%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 30%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 40%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 50%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 60%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 70%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 80%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 90%
+   
+The vcd command required:
+   		0.00 user, 0.00 system, and 0.00 real seconds
+
+   Total number of value changes: 340.
+
+   Total simulation time: 2.3e-08s.
+
+
+Finished Reading VCD toggles
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+** WARN:  (VOLTUS_POWR-1784): Existing clock frequency 833.333MHz is being overwritten with 500MHz on clock rooted on net
+'clk'
+from VCD file. If intent is to calculate static power using original clock frequency, use the command
+'set_switching_activity -clock <clock name> -scale_factor <num>' to scale frequency of this clock.
+
+   With this vcd command,  204 value changes and 1.4e-08 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../rtl_sim/add_tb.vcd
+  Names in file that matched to design   : 145/241
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 47/47 = 100%
+
+  96 nets were found in the VCD file(s) but were not in
+  the design.  These nets are not reported because
+  'set_power_analysis_mode' -report_missing_nets' is set to false
+(default).
+
+  Total annotation coverage for all files of type VCD: 47/47 = 100%
+  Percent of VCD annotated nets with zero toggles: 1/47 = 2.12766%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=930.20MB/2282.81MB/930.20MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 10%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 20%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 30%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 40%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 50%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 60%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 70%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 80%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 90%
+
+Finished Levelizing
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+
+Starting Activity Propagation
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+
+Finished Activity Propagation
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 13/13 = 100%
+          Flop outputs : 18/18 = 100%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 47/47 = 100%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=930.43MB/2282.81MB/930.43MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+ ... Calculating switching power
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 10%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 20%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 30%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 40%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 50%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 60%
+ ... Calculating internal and leakage power
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 70%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 80%
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT): 90%
+
+Finished Calculating power
+2023-Feb-20 16:55:45 (2023-Feb-21 00:55:45 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=930.87MB/2282.81MB/930.87MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=930.87MB/2282.81MB/930.93MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=930.93MB/2282.81MB/930.93MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=930.94MB/2282.81MB/930.94MB)
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.10528162 	   89.4504%
+Total Switching Power:       0.00982534 	    8.3479%
+Total Leakage Power:         0.00259131 	    2.2017%
+Total Power:                 0.11769827
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=931.26MB/2282.81MB/931.27MB)
+
+
+Output file is .//add.rpt.
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+** INFO:  (VOLTUS_POWR-3229): Using user defined default frequency 100MHz for power calculation.
+
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope add_tb.add_instance -start 9 -end 23 -block {} ../rtl_sim/add_tb.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//add.rpt
+Using Power View: WC_VIEW.
+
+Begin Power Analysis
+
+             0V	    VSS
+           0.9V	    VDD
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.48MB/2282.81MB/933.48MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+** WARN:  (VOLTUS_POWR-1608):   Found conflicting definition for clock 'clk' in 833.333MHz.
+  Retaining original frequency of SDC file.
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.49MB/2282.81MB/933.49MB)
+
+Parsing VCD file ../rtl_sim/add_tb.vcd
+
+Starting Reading VCD variables
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 10%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 20%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 30%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 40%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 50%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 60%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 70%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 80%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 90%
+
+Finished Reading VCD variables
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+
+Starting Reading VCD toggles
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 10%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 20%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 30%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 40%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 50%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 60%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 70%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 80%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 90%
+   
+The vcd command required:
+   		0.01 user, 0.00 system, and 0.01 real seconds
+
+   Total number of value changes: 340.
+
+   Total simulation time: 2.3e-08s.
+
+** WARN:  (VOLTUS_POWR-1784): Existing clock frequency 833.333MHz is being overwritten with 500MHz on clock rooted on net
+'clk'
+from VCD file. If intent is to calculate static power using original clock frequency, use the command
+'set_switching_activity -clock <clock name> -scale_factor <num>' to scale frequency of this clock.
+
+   With this vcd command,  203 value changes and 1.4e-08 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../rtl_sim/add_tb.vcd
+  Names in file that matched to design   : 145/241
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 47/47 = 100%
+
+  96 nets were found in the VCD file(s) but were not in
+  the design.  These nets are not reported because
+  'set_power_analysis_mode' -report_missing_nets' is set to false
+(default).
+
+  Total annotation coverage for all files of type VCD: 47/47 = 100%
+  Percent of VCD annotated nets with zero toggles: 1/47 = 2.12766%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+Begin Processing Signal Activity
+
+
+Starting Activity Propagation
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+
+Finished Activity Propagation
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 13/13 = 100%
+          Flop outputs : 18/18 = 100%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 47/47 = 100%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+ ... Calculating switching power
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 10%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 20%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 30%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 40%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 50%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 60%
+ ... Calculating internal and leakage power
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 70%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 80%
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT): 90%
+
+Finished Calculating power
+2023-Feb-20 17:13:10 (2023-Feb-21 01:13:10 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.10123162 	   89.0745%
+Total Switching Power:       0.00982534 	    8.6454%
+Total Leakage Power:         0.00259131 	    2.2801%
+Total Power:                 0.11364827
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=933.51MB/2282.81MB/933.51MB)
+
+
+Output file is .//add.rpt.
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir ./
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+** INFO:  (VOLTUS_POWR-3229): Using user defined default frequency 100MHz for power calculation.
+
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format VCD -scope add_tb.add_instance -start 9 -end 23 -block {} ../rtl_sim/add_tb.vcd
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile .//add.rpt
+Using Power View: WC_VIEW.
+
+Begin Power Analysis
+
+             0V	    VSS
+           0.9V	    VDD
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.21MB/2283.51MB/934.21MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+** WARN:  (VOLTUS_POWR-1608):   Found conflicting definition for clock 'clk' in 833.333MHz.
+  Retaining original frequency of SDC file.
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.21MB/2283.51MB/934.21MB)
+
+Parsing VCD file ../rtl_sim/add_tb.vcd
+
+Starting Reading VCD variables
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 10%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 20%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 30%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 40%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 50%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 60%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 70%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 80%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 90%
+
+Finished Reading VCD variables
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+
+Starting Reading VCD toggles
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 10%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 20%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 30%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 40%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 50%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 60%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 70%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 80%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 90%
+   
+The vcd command required:
+   		0.00 user, 0.00 system, and 0.01 real seconds
+
+   Total number of value changes: 340.
+
+   Total simulation time: 2.3e-08s.
+
+** WARN:  (VOLTUS_POWR-1784): Existing clock frequency 833.333MHz is being overwritten with 500MHz on clock rooted on net
+'clk'
+from VCD file. If intent is to calculate static power using original clock frequency, use the command
+'set_switching_activity -clock <clock name> -scale_factor <num>' to scale frequency of this clock.
+
+   With this vcd command,  203 value changes and 1.4e-08 second simulation
+time were counted for power consumption calculation.
+
+  Filename (activity)                    : ../rtl_sim/add_tb.vcd
+  Names in file that matched to design   : 145/241
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 47/47 = 100%
+
+  96 nets were found in the VCD file(s) but were not in
+  the design.  These nets are not reported because
+  'set_power_analysis_mode' -report_missing_nets' is set to false
+(default).
+
+  Total annotation coverage for all files of type VCD: 47/47 = 100%
+  Percent of VCD annotated nets with zero toggles: 1/47 = 2.12766%
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+Begin Processing Signal Activity
+
+
+Starting Activity Propagation
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+
+Finished Activity Propagation
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 13/13 = 100%
+          Flop outputs : 18/18 = 100%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 47/47 = 100%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+ ... Calculating switching power
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 10%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 20%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 30%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 40%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 50%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 60%
+ ... Calculating internal and leakage power
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 70%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 80%
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT): 90%
+
+Finished Calculating power
+2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.10123162 	   89.0745%
+Total Switching Power:       0.00982534 	    8.6454%
+Total Leakage Power:         0.00259131 	    2.2801%
+Total Power:                 0.11364827
+-----------------------------------------------------------------------------------------
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=934.24MB/2283.51MB/934.24MB)
+
+
+Output file is .//add.rpt.
+
+*** Memory Usage v#1 (Current mem = 1211.863M, initial mem = 283.785M) ***
+*** Message Summary: 1639 warning(s), 4 error(s)
+
+--- Ending "Innovus" (totcpu=2:23:32, real=12:24:07, mem=1211.9M) ---

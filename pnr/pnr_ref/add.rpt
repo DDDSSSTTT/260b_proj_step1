@@ -1,0 +1,139 @@
+*----------------------------------------------------------------------------------------
+*	Innovus 19.17-s077_1 (64bit) 12/01/2020 11:09 (Linux 2.6.32-431.11.2.el6.x86_64)
+*	
+*
+* 	Date & Time:	2023-Feb-20 17:13:45 (2023-Feb-21 01:13:45 GMT)
+*
+*----------------------------------------------------------------------------------------
+*
+*	Design: add
+*
+*	Liberty Libraries used: 
+*	        WC_VIEW: /home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/route.enc.dat/libs/mmmc/tcbn65gpluswc.lib
+*
+*	Power Domain used: 
+*              Rail:        VDD      Voltage:        0.9 
+*
+*       Power View : WC_VIEW
+*
+*       User-Defined Activity : N.A.
+*
+*	Switching Activity File used: 
+*	        ../rtl_sim/add_tb.vcd
+*                    Vcd Window used(Start Time, Stop Time):  (9.000000,23.000000) 
+*                     Vcd Scale Factor: 1 
+* *                    Design annotation coverage: 47/47 = 100% 
+*
+*       Hierarchical Global Activity: N.A.
+*
+*       Global Activity: N.A.
+*
+*       Sequential Element Activity: N.A.
+*
+*       Primary Input Activity: 0.200000
+*
+*       Default icg ratio: N.A.
+*
+*       Global Comb ClockGate Ratio: N.A.
+*
+*	Power Units = 1mW
+*
+*	Time Units = 1e-09 secs 
+*
+*       Temperature = 125 
+*
+*       report_power -outfile .//add.rpt -rail_analysis_format VS
+*
+-----------------------------------------------------------------------------------------
+Cell                            Internal   Switching       Total     Leakage   Cell
+                                   Power       Power       Power       Power   Name
+--------------------------------------------------------------------------------------
+y_q_reg_2_                      0.005339   0.0003837    0.005774   5.182e-05  DFQD1
+out_reg_4_                      0.005371   7.794e-05    0.005501   5.114e-05  DFQD1
+x_q_reg_2_                      0.004974   0.0003394    0.005366   5.257e-05  DFQD1
+x_q_reg_3_                      0.004974   0.0003074    0.005334   5.257e-05  DFQD1
+out_reg_2_                      0.005104   0.0001729    0.005328   5.181e-05  DFQD1
+y_q_reg_3_                      0.004614   0.0003619    0.005028   5.132e-05  DFQD1
+out_reg_3_                      0.004832   0.0001127    0.004996   5.103e-05  DFQD1
+intadd_0_U2                     0.003992   0.0008405    0.004943   0.0001105  FA1D0
+z_q_reg_3_                      0.004609   0.0002594    0.004921   5.232e-05  DFQD1
+z_q_reg_0_                      0.004461   0.0003829    0.004896   5.207e-05  DFQD1
+y_q_reg_1_                      0.004459   0.0003348    0.004846   5.257e-05  DFQD1
+out_reg_0_                      0.004593    0.000153    0.004798   5.181e-05  DFQD1
+z_q_reg_1_                      0.004455   0.0002565    0.004763   5.157e-05  DFQD1
+y_q_reg_0_                      0.004248   0.0002601    0.004559   5.107e-05  DFQD1
+z_q_reg_2_                      0.004097   0.0003141    0.004462   5.182e-05  DFQD1
+x_q_reg_0_                      0.004244   0.0001395    0.004436   5.207e-05  DFQD1
+out_reg_1_                      0.004171   7.149e-05    0.004296   5.331e-05  DFQD1
+x_q_reg_1_                      0.004034   0.0001437     0.00423   5.207e-05  DFQD1
+out_reg_5_                       0.00405           0    0.004104   5.363e-05  DFQD1
+intadd_0_U3                     0.003204   0.0006942    0.004011   0.0001126  FA1D0
+U19                             0.003193   0.0006522    0.003959   0.0001138  FA1D0
+U18                             0.002851    0.000861    0.003824   0.0001118  FA1D0
+U17                             0.002359   0.0006836    0.003157   0.0001146  FA1D0
+intadd_0_U4                     0.001156   0.0002871    0.001554    0.000111  FA1D0
+U13                            0.0008748   0.0005753    0.001462   1.227e-05  IAO21D0
+U14                             0.000492   0.0004919   0.0009918   7.887e-06  CKAN2D0
+U15                            0.0003226   0.0003626   0.0006942   9.093e-06  CKAN2D0
+U16                            0.0001563   0.0003054   0.0004709   9.189e-06  IAO21D0
+FILLER__1_9                            0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_8                            0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_7                            0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_6                            0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_53                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_52                           0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_51                           0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_29                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_28                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_27                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_20                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_2                            0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_22                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_19                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_23                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_17                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_25                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_11                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_50                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_26                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_10                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_1                            0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_21                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_24                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_13                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_49                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_14                           0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_48                           0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_15                           0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_47                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_12                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_16                           0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_18                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_3                            0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_30                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_31                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_32                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_33                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_34                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_35                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_36                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_37                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_38                           0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_39                           0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_4                            0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_40                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_54                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_41                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_42                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_43                           0           0   2.877e-06   2.877e-06  DCAP4
+FILLER__1_44                           0           0   8.018e-05   8.018e-05  DCAP32
+FILLER__1_55                           0           0   1.335e-06   1.335e-06  DCAP
+FILLER__1_45                           0           0   3.453e-05   3.453e-05  DCAP16
+FILLER__1_46                           0           0   1.527e-05   1.527e-05  DCAP8
+FILLER__1_5                            0           0   2.877e-06   2.877e-06  DCAP4
+
+---------------------------------------------------------------------------------------
+
+Total (     83 of     83  )       0.1012    0.009825     0.1136    0.002591
+Total Capacitance                 7.98e-14 F
+Power Density                   *** No Die Area ***
