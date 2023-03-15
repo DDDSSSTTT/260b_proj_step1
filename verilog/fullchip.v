@@ -3,7 +3,7 @@
 module fullchip (clk, mem_in, inst, reset, out, sum_out);
 
 parameter col = 8;
-parameter bw = 8;
+parameter bw = 4;
 parameter bw_psum = 2*bw+4;
 parameter pr = 16;
 

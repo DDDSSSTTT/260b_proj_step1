@@ -6,7 +6,7 @@
 module fullchip_tb;
 
 parameter total_cycle = 8;   // how many streamed Q vectors will be processed
-parameter bw = 8;            // Q & K vector bit precision
+parameter bw = 4;            // Q & K vector bit precision
 parameter bw_psum = 2*bw+4;  // partial sum bit precision
 parameter pr = 16;           // how many products added in each dot product 
 parameter col = 8;           // how many dot product units are equipped

@@ -4,8 +4,8 @@ Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
 
 Version:	v19.17-s077_1, built Tue Dec 1 11:09:44 PST 2020
 Options:	
-Date:		Sun Mar 12 16:11:08 2023
-Host:		ieng6-ece-13.ucsd.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz 20480KB)
+Date:		Tue Mar 14 12:53:39 2023
+Host:		ieng6-ece-19.ucsd.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz 20480KB)
 OS:		CentOS Linux release 7.9.2009 (Core)
 
 License:
@@ -101,8 +101,8 @@ Set DBUPerIGU to M2 pitch 400.
 **WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
 Type 'man IMPLF-200' for more detail.
 
-viaInitial starts at Sun Mar 12 16:14:54 2023
-viaInitial ends at Sun Mar 12 16:14:54 2023
+viaInitial starts at Tue Mar 14 12:54:13 2023
+viaInitial ends at Tue Mar 14 12:54:13 2023
 
 ##  Check design process and node:  
 ##  Both design process and tech node are not set.
@@ -111,437 +111,487 @@ Reading WC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/t
 Read 811 cells in library 'tcbn65gpluswc' 
 Reading BC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gplusbc.lib' ...
 Read 811 cells in library 'tcbn65gplusbc' 
-*** End library_loading (cpu=0.04min, real=0.05min, mem=28.0M, fe_cpu=0.93min, fe_real=3.82min, fe_mem=739.5M) ***
-**ERROR: (IMPSYT-16038):	The specified file './netlist/fullchip.out.v' could not be found. Check your file system, correct the file name.
-**ERROR: (IMPIMEX-7008):	No netlist files are found.
+*** End library_loading (cpu=0.05min, real=0.05min, mem=28.0M, fe_cpu=0.38min, fe_real=0.62min, fe_mem=740.7M) ***
+#% Begin Load netlist data ... (date=03/14 12:54:16, mem=512.4M)
+*** Begin netlist parsing (mem=740.7M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+Type 'man IMPVL-159' for more detail.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Created 811 new cells from 2 timing libraries.
+Reading netlist ...
+Backslashed names will retain backslash and a trailing blank character.
+Reading verilog netlist './netlist/fullchip.out.v'
 
-<CMD> set init_pwr_net VDD
-<CMD> set init_gnd_net VSS
-<CMD> set init_verilog ./netlist/fullchip.out.v
-<CMD> set init_design_netlisttype Verilog
-<CMD> set init_design_settop 1
-<CMD> set init_top_cell fullchip
-<CMD> set init_lef_file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef
-<CMD> create_library_set -name WC_LIB -timing $worst_timing_lib
-<CMD> create_library_set -name BC_LIB -timing $best_timing_lib
-<CMD> create_rc_corner -name Cmax -cap_table $worst_captbl -T 125
+*** Memory Usage v#1 (Current mem = 748.723M, initial mem = 283.785M) ***
+*** End netlist parsing (cpu=0:00:00.2, real=0:00:00.0, mem=748.7M) ***
+#% End Load netlist data ... (date=03/14 12:54:16, total cpu=0:00:00.2, real=0:00:00.0, peak res=537.9M, current mem=537.9M)
+Set top cell to fullchip.
+Hooked 1622 DB cells to tlib cells.
+Starting recursive module instantiation check.
+No recursion found.
+Building hierarchical netlist for Cell fullchip ...
+*** Netlist is unique.
+** info: there are 1832 modules.
+** info: there are 19683 stdCell insts.
+
+*** Memory Usage v#1 (Current mem = 822.648M, initial mem = 283.785M) ***
+**WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Set Default Input Pin Transition as 0.1 ps.
+WC_VIEW BC_VIEW
 Extraction setup Started 
-Innovus terminated by internal (SEGV) error/signal...
-*** Stack trace:
-*** Stack trace:
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x12e84e86]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(syStackTrace+0xb7)[0x12e85308]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x484ebc4]
-/lib64/libpthread.so.0(+0xf630)[0x7f41cebe1630]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN12peLayerPitch17computeLayerPitchEv+0x4f)[0xc9c0b0f]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN14peEngineClient16getLayerInfoByIdERSt6vectorI11eeLayerInfoSaIS1_EE+0x8da)[0xc9bad9a]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN14peEngineClient12getLayerInfoERSt6vectorI11eeLayerInfoSaIS1_EE+0xc0c)[0xc9bbd0c]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN21eeExtEngineDesignData12setLayerInfoEv+0x4c)[0x4dba6dc]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0xc8e9a89]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_Z10dbMCRCInitv+0xa)[0xc8f07fa]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_Z28peiInitializeExtractionSetUpb+0x23)[0xc8f0a73]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0xf769213]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN6TAMmmc14updateRcCornerEP14TAMmmcRcCornerPKcf9tabooleanR18TAMmmcTripleFactorS4_fS4_S6_S4_S6_S4_fS4_fS4_S6_S4_S6_S4_S3_S3_S3_fS4_S3_+0x3a8)[0x130e8ba8]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_Z30TaCmd_createOrUpdate_rc_cornerPvP10Tcl_InterpiPPc9tabooleanP6tcmCmd+0x890)[0x14277f20]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN10tcmBaseCmd7executeEP10Tcl_InterpiPPc+0x188)[0x151b45e8]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN6tcmMgr9cmdParserEPvP10Tcl_InterpiPPc+0x67b)[0x151a35ab]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(TclInvokeStringCommand+0x80)[0x18b0c5b0]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(TclNRRunCallbacks+0x47)[0x18b10f27]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x18b133f8]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_EvalEx+0x16)[0x18b13d26]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(TclNREvalObjEx+0x6f)[0x18b13dcf]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x18bc95cb]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x18b27021]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(TclNRRunCallbacks+0x47)[0x18b10f27]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_RecordAndEvalObj+0xf4)[0x18baf624]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_RecordAndEval+0x38)[0x18baf788]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_Z17rdaEditCmdLineEndPc+0x33d)[0x490d4ad]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN9seConsole7sesMode9DoExecuteERKSsPv+0xc7)[0xf807d27]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN7Redline9EmacsMode10AcceptLineEv+0x3c)[0x10920c3c]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN7Redline11ModeCommandINS_9EmacsModeEE15CommandFnNoKeysERKN5boost8functionIFvRS1_EEERNS_6EditorE+0x61)[0x109291c1]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN5boost6detail8function26void_function_obj_invoker2INS_3_bi6bind_tINS3_11unspecifiedENS_8functionIFvRN7Redline6EditorEEEENS3_5list1INS_3argILi1EEEEEEEvS9_RKNS7_14KeyCombinationEE6invokeERNS1_15function_bufferES9_SJ_+0x1b)[0x10938a1b]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZNK7Redline7Command3RunERNS_6EditorERKNS_14KeyCombinationE+0x1c)[0x1093873c]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_ZN7Redline6Editor9Internals3RunEb+0xe0)[0x1091d260]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x18c13cf7]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_ServiceEvent+0x87)[0x18bd5747]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_DoOneEvent+0x129)[0x18bd5a49]
-/software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so(_ZN17TqEventDispatcher13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x6a)[0x7f41d364323a]
-/software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0xea)[0x7f41d27ec0ca]
-/software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5(_ZN16QCoreApplication4execEv+0x84)[0x7f41d27f4954]
-/software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so(_ZN13TqApplication4execEv+0x177)[0x7f41d3642897]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(_Z12edi_app_initP10Tcl_Interp+0x281)[0x48ef5e1]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(Tcl_MainEx+0x177)[0x18bd0287]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x4a47df3]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus(main+0x10b)[0x3fdb69b]
-/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f41cdff9555]
-/software/ECE/Innovus-19.1/tools/innovus/bin/64bit/innovus[0x484b9c1]
-========================================
-               pstack
-========================================
-Thread 17 (Thread 0x7f41ca38d700 (LWP 23195)):
-#0  0x00007f41ce0ccb43 in select () from /lib64/libc.so.6
-#1  0x0000000018c139f7 in NotifierThreadProc ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 16 (Thread 0x7f41c2b01700 (LWP 23196)):
-#0  0x00007f41cebe09dd in accept () from /lib64/libpthread.so.0
-#1  0x00000000174d44ae in ProcessInfo::handleConnection(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 15 (Thread 0x7f41c2300700 (LWP 23197)):
-#0  0x00007f41ce0ccb43 in select () from /lib64/libc.so.6
-#1  0x00000000174cc69b in ProcessInfo::sampleUsage(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 14 (Thread 0x7f41c1aff700 (LWP 23201)):
-#0  0x00007f41cebe0e9d in nanosleep () from /lib64/libpthread.so.0
-#1  0x0000000005f71edd in rdaiLicRecheck(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 13 (Thread 0x7f41c08f6700 (LWP 23203)):
-#0  0x00007f41ce09c9fd in nanosleep () from /lib64/libc.so.6
-#1  0x00007f41ce09c894 in sleep () from /lib64/libc.so.6
-#2  0x0000000012e9f20f in syiPeakMem(void*) ()
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 12 (Thread 0x7f41bfcdd700 (LWP 23230)):
-#0  0x00007f41ce0caddd in poll () from /lib64/libc.so.6
-#1  0x00007f41cfad5022 in _xcb_conn_wait () from /lib64/libxcb.so.1
-#2  0x00007f41cfad6c6f in xcb_wait_for_event () from /lib64/libxcb.so.1
-#3  0x00007f41bfd32a59 in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5XcbQpa.so.5
-#4  0x00007f41d260f17a in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#5  0x0000000004b1474a in create_head(void*) ()
-#6  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#7  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 11 (Thread 0x7f41b9619700 (LWP 23231)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 10 (Thread 0x7f41b8e18700 (LWP 23232)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 9 (Thread 0x7f41b8617700 (LWP 23233)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 8 (Thread 0x7f41b7e16700 (LWP 23234)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 7 (Thread 0x7f41b7615700 (LWP 23235)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 6 (Thread 0x7f41b6e14700 (LWP 23236)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 5 (Thread 0x7f41b6613700 (LWP 23237)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 4 (Thread 0x7f41b5e12700 (LWP 23238)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 3 (Thread 0x7f41b4b83700 (LWP 23266)):
-#0  0x00007f41cebe13c1 in sigwait () from /lib64/libpthread.so.0
-#1  0x000000000484c31f in ctrlCHandle(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 2 (Thread 0x7f419d8c5700 (LWP 23314)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41d260ffbb in QWaitCondition::wait(QMutex*, unsigned long) () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#2  0x00007f41d225be22 in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
-#3  0x00007f41d260f17a in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#4  0x0000000004b1474a in create_head(void*) ()
-#5  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#6  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
-Thread 1 (Thread 0x7f41d7ba6400 (LWP 23119)):
-#0  0x00007f41ce09c659 in waitpid () from /lib64/libc.so.6
-#1  0x00007f41ce019f62 in do_system () from /lib64/libc.so.6
-#2  0x00007f41ce01a311 in system () from /lib64/libc.so.6
-#3  0x0000000012e84eb0 in syStackTraceDump(_IO_FILE*, bool) ()
-#4  0x0000000012e85308 in syStackTrace ()
-#5  0x000000000484ebc4 in rdaiErrorHandler(int, siginfo*, void*) ()
-#6  <signal handler called>
-#7  0x000000000c9c0b0f in peLayerPitch::computeLayerPitch() ()
-#8  0x000000000c9bad9a in peEngineClient::getLayerInfoById(std::vector<eeLayerInfo, std::allocator<eeLayerInfo> >&) ()
-#9  0x000000000c9bbd0c in peEngineClient::getLayerInfo(std::vector<eeLayerInfo, std::allocator<eeLayerInfo> >&) ()
-#10 0x0000000004dba6dc in eeExtEngineDesignData::setLayerInfo() ()
-#11 0x000000000c8e9a89 in eeExtEngineDesignData::resetDesignData() [clone .constprop.419] ()
-#12 0x000000000c8f07fa in dbMCRCInit() ()
-#13 0x000000000c8f0a73 in peiInitializeExtractionSetUp(bool) ()
-#14 0x000000000f769213 in toiCteUpdateRcCornerPostCallback(TAMmmcRcCorner*, TAMmmcUpdateRcCornerCbkInfo*) ()
-#15 0x00000000130e8ba8 in TAMmmc::updateRcCorner(TAMmmcRcCorner*, char const*, float, taboolean, TAMmmcTripleFactor&, taboolean, float, taboolean, TAMmmcTripleFactor&, taboolean, TAMmmcTripleFactor&, taboolean, float, taboolean, float, taboolean, TAMmmcTripleFactor&, taboolean, TAMmmcTripleFactor&, taboolean, char const*, char const*, char const*, float, taboolean, char const*) ()
-#16 0x0000000014277f20 in TaCmd_createOrUpdate_rc_corner(void*, Tcl_Interp*, int, char**, taboolean, tcmCmd*) ()
-#17 0x00000000151b45e8 in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
-#18 0x00000000151a35ab in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
-#19 0x0000000018b0c5b0 in TclInvokeStringCommand ()
-#20 0x0000000018b10f27 in TclNRRunCallbacks ()
-#21 0x0000000018b133f8 in TclEvalEx ()
-#22 0x0000000018b13d26 in Tcl_EvalEx ()
-#23 0x0000000018b13dcf in TclNREvalObjEx ()
-#24 0x0000000018bc95cb in TclNREvalFile ()
-#25 0x0000000018b27021 in TclNRSourceObjCmd ()
-#26 0x0000000018b10f27 in TclNRRunCallbacks ()
-#27 0x0000000018baf624 in Tcl_RecordAndEvalObj ()
-#28 0x0000000018baf788 in Tcl_RecordAndEval ()
-#29 0x000000000490d4ad in rdaEditCmdLineEnd(char*) ()
-#30 0x000000000f807d27 in seConsole::sesMode::DoExecute(std::string const&, void*) ()
-#31 0x0000000010920c3c in Redline::EmacsMode::AcceptLine() ()
-#32 0x00000000109291c1 in Redline::ModeCommand<Redline::EmacsMode>::CommandFnNoKeys(boost::function<void (Redline::EmacsMode&)> const&, Redline::Editor&) ()
-#33 0x0000000010938a1b in boost::detail::function::void_function_obj_invoker2<boost::_bi::bind_t<boost::_bi::unspecified, boost::function<void (Redline::Editor&)>, boost::_bi::list1<boost::arg<1> > >, void, Redline::Editor&, Redline::KeyCombination const&>::invoke(boost::detail::function::function_buffer&, Redline::Editor&, Redline::KeyCombination const&) ()
-#34 0x000000001093873c in Redline::Command::Run(Redline::Editor&, Redline::KeyCombination const&) const ()
-#35 0x000000001091d260 in Redline::Editor::Internals::Run(bool) ()
-#36 0x0000000018c13cf7 in FileHandlerEventProc ()
-#37 0x0000000018bd5747 in Tcl_ServiceEvent ()
-#38 0x0000000018bd5a49 in Tcl_DoOneEvent ()
-#39 0x00007f41d364323a in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so
-#40 0x00007f41d27ec0ca in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#41 0x00007f41d27f4954 in QCoreApplication::exec() () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#42 0x00007f41d3642897 in TqApplication::exec() () from /software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so
-#43 0x00000000048ef5e1 in edi_app_init(Tcl_Interp*) ()
-#44 0x0000000018bd0287 in Tcl_MainEx ()
-#45 0x0000000004a47df3 in child_main(int, char**) ()
-#46 0x0000000003fdb69b in main ()
-========================================
-                gdb
-========================================
-Using: gdb
-[New LWP 23314]
-[New LWP 23266]
-[New LWP 23238]
-[New LWP 23237]
-[New LWP 23236]
-[New LWP 23235]
-[New LWP 23234]
-[New LWP 23233]
-[New LWP 23232]
-[New LWP 23231]
-[New LWP 23230]
-[New LWP 23203]
-[New LWP 23201]
-[New LWP 23197]
-[New LWP 23196]
-[New LWP 23195]
-[Thread debugging using libthread_db enabled]
-Using host libthread_db library "/lib64/libthread_db.so.1".
-0x00007f41ce09c659 in waitpid () from /lib64/libc.so.6
+Initializing multi-corner RC extraction with 2 active RC Corners ...
+Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cworst.captable ...
+**WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cbest.captable ...
+**WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+**WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+**WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+Importing multi-corner RC tables ... 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: WC_VIEW
+    RC-Corner Name        : Cmax
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cworst.captable'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+ 
+ Analysis View: BC_VIEW
+    RC-Corner Name        : Cmin
+    RC-Corner Index       : 1
+    RC-Corner Temperature : -40 Celsius
+    RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cbest.captable'
+    RC-Corner PreRoute Res Factor         : 1
+    RC-Corner PreRoute Cap Factor         : 1
+    RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+    RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+    RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+    RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+    RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+    RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+Updating RC grid for preRoute extraction ...
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+*Info: initialize multi-corner CTS.
+Reading timing constraints file './constraints/fullchip.sdc' ...
+Current (total cpu=0:00:24.5, real=0:00:38.0, peak res=768.4M, current mem=768.4M)
+**WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File ./constraints/fullchip.sdc, Line 9).
 
-Thread 17 (Thread 0x7f41ca38d700 (LWP 23195)):
-#0  0x00007f41ce0ccb43 in select () from /lib64/libc.so.6
-#1  0x0000000018c139f7 in NotifierThreadProc ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+INFO (CTE): Reading of timing constraints file ./constraints/fullchip.sdc completed, with 1 WARNING
+Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:01.0, peak res=786.2M, current mem=786.2M)
+Current (total cpu=0:00:24.6, real=0:00:39.0, peak res=786.2M, current mem=786.2M)
+Total number of combinational cells: 497
+Total number of sequential cells: 303
+Total number of tristate cells: 11
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16
+Total number of usable buffers: 18
+List of unusable buffers: BUFFD20 BUFFD24 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
+Total number of unusable buffers: 9
+List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16
+Total number of usable inverters: 18
+List of unusable inverters: CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD20 INVD24
+Total number of unusable inverters: 9
+List of identified usable delay cells:
+Total number of identified usable delay cells: 0
+List of identified unusable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
+Total number of identified unusable delay cells: 9
+All delay cells are dont_use. Buffers will be used to fix hold violations.
 
-Thread 16 (Thread 0x7f41c2b01700 (LWP 23196)):
-#0  0x00007f41cebe09dd in accept () from /lib64/libpthread.so.0
-#1  0x00000000174d44ae in ProcessInfo::handleConnection(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
+WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
+WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
+WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
+*** Message Summary: 1634 warning(s), 0 error(s)
 
-Thread 15 (Thread 0x7f41c2300700 (LWP 23197)):
-#0  0x00007f41ce0ccb43 in select () from /lib64/libc.so.6
-#1  0x00000000174cc69b in ProcessInfo::sampleUsage(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+<CMD> set_interactive_constraint_modes {CON}
+<CMD> setDesignMode -process 65
+##  Process: 65            (User Set)               
+##     Node: (not set)                           
 
-Thread 14 (Thread 0x7f41c1aff700 (LWP 23201)):
-#0  0x00007f41cebe0e9d in nanosleep () from /lib64/libpthread.so.0
-#1  0x0000000005f71edd in rdaiLicRecheck(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+##  Check design process and node:  
+##  Design tech node is not set.
 
-Thread 13 (Thread 0x7f41c08f6700 (LWP 23203)):
-#0  0x00007f41ce09c9fd in nanosleep () from /lib64/libc.so.6
-#1  0x00007f41ce09c894 in sleep () from /lib64/libc.so.6
-#2  0x0000000012e9f20f in syiPeakMem(void*) ()
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+<CMD> panPage -1 0
+<CMD> panPage -1 0
+<CMD> setDrawView fplan
+<CMD> selectObject Module core_instance
+<CMD> uiSetTool move
+<CMD> setObjFPlanBox Module core_instance -2.477 0.845 376.9245 378.812
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site core -r 0.996218061064 0.5 0.0 0.0 0.0 0.0
+**WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> deselectAll
+<CMD> selectObject Module core_instance
+<CMD> uiSetTool move
+<CMD> setObjFPlanBox Module core_instance 7.9845 57.887 387.3845 435.887
+<CMD> setObjFPlanBox Module core_instance 8.00000 57.60000 437.08500 435.60000
+<CMD> setObjFPlanBox Module core_instance 8.00000 21.59400 437.00000 435.60000
+<CMD> setObjFPlanBox Module core_instance 9.996 6.6295 438.996 420.6295
+<CMD> uiSetTool select
+<CMD> floorPlan -site core -r 1 0.50 10.0 10.0 10.0 10.0
+**WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+<CMD> timeDesign -preplace -prefix preplace
+Setting timing_disable_library_data_to_data_checks to 'true'.
+Setting timing_disable_user_data_to_data_checks to 'true'.
+Set Using Default Delay Limit as 101.
+**WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
+Setting High Fanout Nets ( > 100 ) as ideal temporarily for -prePlace option
+Set Default Net Delay as 0 ps.
+Set Default Net Load as 0 pF. 
+Starting delay calculation for Setup views
+AAE DB initialization (MEM=1132.12 CPU=0:00:00.3 REAL=0:00:01.0) 
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: fullchip
+# Design Mode: 65nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI Off 
+#################################################################################
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1135.14)
+Total number of fetched objects 21039
+End delay calculation. (MEM=1282.05 CPU=0:00:02.5 REAL=0:00:02.0)
+End delay calculation (fullDC). (MEM=1254.97 CPU=0:00:03.5 REAL=0:00:03.0)
+*** Done Building Timing Graph (cpu=0:00:04.9 real=0:00:05.0 totSessionCpu=0:00:48.0 mem=1255.0M)
 
-Thread 12 (Thread 0x7f41bfcdd700 (LWP 23230)):
-#0  0x00007f41ce0caddd in poll () from /lib64/libc.so.6
-#1  0x00007f41cfad5022 in _xcb_conn_wait () from /lib64/libxcb.so.1
-#2  0x00007f41cfad6c6f in xcb_wait_for_event () from /lib64/libxcb.so.1
-#3  0x00007f41bfd32a59 in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5XcbQpa.so.5
-#4  0x00007f41d260f17a in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#5  0x0000000004b1474a in create_head(void*) ()
-#6  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#7  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
 
-Thread 11 (Thread 0x7f41b9619700 (LWP 23231)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Setup views included:
+ WC_VIEW 
 
-Thread 10 (Thread 0x7f41b8e18700 (LWP 23232)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| -0.669  | -0.669  | -0.455  |
+|           TNS (ns):| -1395.5 | -1143.2 |-252.228 |
+|    Violating Paths:|  5255   |  3024   |  2231   |
+|          All Paths:|  11656  |  5678   |  8946   |
++--------------------+---------+---------+---------+
 
-Thread 9 (Thread 0x7f41b8617700 (LWP 23233)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Density: 49.979%
+------------------------------------------------------------
+Set Using Default Delay Limit as 1000.
+Resetting back High Fanout Nets as non-ideal
+Set Default Net Delay as 1000 ps.
+Set Default Net Load as 0.5 pF. 
+Reported timing to dir ./timingReports
+Total CPU time: 6.8 sec
+Total Real time: 7.0 sec
+Total Memory Usage: 1192.449219 Mbytes
+<CMD> globalNetConnect VDD -type pgpin -pin VDD -inst * -verbose
+19683 new pwr-pin connections were made to global net 'VDD'.
+<CMD> globalNetConnect VSS -type pgpin -pin VSS -inst * -verbose
+19683 new gnd-pin connections were made to global net 'VSS'.
+<CMD> addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 3 bottom 3 left 3 right 3} -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
+#% Begin addRing (date=03/14 12:55:38, mem=898.2M)
 
-Thread 8 (Thread 0x7f41b7e16700 (LWP 23234)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1192.4M)
+Ring generation is complete.
+vias are now being generated.
+addRing created 8 wires.
+ViaGen created 8 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|   M1   |        4       |       NA       |
+|  VIA1  |        8       |        0       |
+|   M2   |        4       |       NA       |
++--------+----------------+----------------+
+#% End addRing (date=03/14 12:55:38, total cpu=0:00:00.0, real=0:00:00.0, peak res=899.6M, current mem=899.6M)
+<CMD> setAddStripeMode -break_at block_ring
+Stripe will break at block ring.
+<CMD> addStripe -number_of_sets 2 -spacing 6 -layer M4 -width 2 -nets { VSS VDD }
+#% Begin addStripe (date=03/14 12:55:38, mem=899.6M)
 
-Thread 7 (Thread 0x7f41b7615700 (LWP 23235)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Initialize fgc environment(mem: 1192.4M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1192.4M)
+Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1192.4M)
+Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1192.4M)
+Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1192.4M)
+Starting stripe generation ...
+Non-Default Mode Option Settings :
+  NONE
+Stripe generation is complete.
+vias are now being generated.
+addStripe created 4 wires.
+ViaGen created 24 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|  VIA1  |        8       |        0       |
+|  VIA2  |        8       |        0       |
+|  VIA3  |        8       |        0       |
+|   M4   |        4       |       NA       |
++--------+----------------+----------------+
+#% End addStripe (date=03/14 12:55:38, total cpu=0:00:00.0, real=0:00:00.0, peak res=900.5M, current mem=900.5M)
+<CMD> sroute
+#% Begin sroute (date=03/14 12:55:38, mem=900.5M)
+*** Begin SPECIAL ROUTE on Tue Mar 14 12:55:38 2023 ***
+SPECIAL ROUTE ran on directory: /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr
+SPECIAL ROUTE ran on machine: ieng6-ece-19.ucsd.edu (Linux 3.10.0-1160.80.1.el7.x86_64 Xeon 2.60Ghz)
 
-Thread 6 (Thread 0x7f41b6e14700 (LWP 23236)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Begin option processing ...
+srouteConnectPowerBump set to false
+routeSpecial set to true
+srouteConnectConverterPin set to false
+srouteFollowCorePinEnd set to 3
+srouteJogControl set to "preferWithChanges differentLayer"
+sroutePadPinAllPorts set to true
+sroutePreserveExistingRoutes set to true
+srouteRoutePowerBarPortOnBothDir set to true
+End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2234.00 megs.
 
-Thread 5 (Thread 0x7f41b6613700 (LWP 23237)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+Reading DB technology information...
+Finished reading DB technology information.
+Reading floorplan and netlist information...
+Finished reading floorplan and netlist information.
+Read in 17 layers, 8 routing layers, 1 overlap layer
+Read in 846 macros, 128 used
+Read in 128 components
+  128 core components: 128 unplaced, 0 placed, 0 fixed
+Read in 195 logical pins
+Read in 195 nets
+Read in 2 special nets, 2 routed
+Read in 256 terminals
+Begin power routing ...
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VDD net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VDD net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
+**WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VSS net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
+**WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VSS net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
+Type 'man IMPSR-1256' for more detail.
+Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
+CPU time for FollowPin 0 seconds
+CPU time for FollowPin 0 seconds
+  Number of IO ports routed: 0
+  Number of Block ports routed: 0
+  Number of Stripe ports routed: 0
+  Number of Core ports routed: 498
+  Number of Pad ports routed: 0
+  Number of Power Bump ports routed: 0
+  Number of Followpin connections: 249
+End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2249.00 megs.
 
-Thread 4 (Thread 0x7f41b5e12700 (LWP 23238)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41bd0490b3 in thread_function () from /usr/lib64/dri/swrast_dri.so
-#2  0x00007f41bd048c27 in impl_thrd_routine () from /usr/lib64/dri/swrast_dri.so
-#3  0x0000000004b1474a in create_head(void*) ()
-#4  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#5  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
 
-Thread 3 (Thread 0x7f41b4b83700 (LWP 23266)):
-#0  0x00007f41cebe13c1 in sigwait () from /lib64/libpthread.so.0
-#1  0x000000000484c31f in ctrlCHandle(void*) ()
-#2  0x0000000004b1474a in create_head(void*) ()
-#3  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#4  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
 
-Thread 2 (Thread 0x7f419d8c5700 (LWP 23314)):
-#0  0x00007f41cebdda35 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
-#1  0x00007f41d260ffbb in QWaitCondition::wait(QMutex*, unsigned long) () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#2  0x00007f41d225be22 in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Widgets.so.5
-#3  0x00007f41d260f17a in ?? () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#4  0x0000000004b1474a in create_head(void*) ()
-#5  0x00007f41cebd9ea5 in start_thread () from /lib64/libpthread.so.0
-#6  0x00007f41ce0d5b0d in clone () from /lib64/libc.so.6
+ Begin updating DB with routing results ...
+ Updating DB with 0 via definition ...Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
 
-Thread 1 (Thread 0x7f41d7ba6400 (LWP 23119)):
-#0  0x00007f41ce09c659 in waitpid () from /lib64/libc.so.6
-#1  0x00007f41ce019f62 in do_system () from /lib64/libc.so.6
-#2  0x00007f41ce01a311 in system () from /lib64/libc.so.6
-#3  0x0000000012e84eb0 in syStackTraceDump(_IO_FILE*, bool) ()
-#4  0x0000000012e85308 in syStackTrace ()
-#5  0x000000000484ebc4 in rdaiErrorHandler(int, siginfo*, void*) ()
-#6  <signal handler called>
-#7  0x000000000c9c0b0f in peLayerPitch::computeLayerPitch() ()
-#8  0x000000000c9bad9a in peEngineClient::getLayerInfoById(std::vector<eeLayerInfo, std::allocator<eeLayerInfo> >&) ()
-#9  0x000000000c9bbd0c in peEngineClient::getLayerInfo(std::vector<eeLayerInfo, std::allocator<eeLayerInfo> >&) ()
-#10 0x0000000004dba6dc in eeExtEngineDesignData::setLayerInfo() ()
-#11 0x000000000c8e9a89 in eeExtEngineDesignData::resetDesignData() [clone .constprop.419] ()
-#12 0x000000000c8f07fa in dbMCRCInit() ()
-#13 0x000000000c8f0a73 in peiInitializeExtractionSetUp(bool) ()
-#14 0x000000000f769213 in toiCteUpdateRcCornerPostCallback(TAMmmcRcCorner*, TAMmmcUpdateRcCornerCbkInfo*) ()
-#15 0x00000000130e8ba8 in TAMmmc::updateRcCorner(TAMmmcRcCorner*, char const*, float, taboolean, TAMmmcTripleFactor&, taboolean, float, taboolean, TAMmmcTripleFactor&, taboolean, TAMmmcTripleFactor&, taboolean, float, taboolean, float, taboolean, TAMmmcTripleFactor&, taboolean, TAMmmcTripleFactor&, taboolean, char const*, char const*, char const*, float, taboolean, char const*) ()
-#16 0x0000000014277f20 in TaCmd_createOrUpdate_rc_corner(void*, Tcl_Interp*, int, char**, taboolean, tcmCmd*) ()
-#17 0x00000000151b45e8 in tcmBaseCmd::execute(Tcl_Interp*, int, char**) ()
-#18 0x00000000151a35ab in tcmMgr::cmdParser(void*, Tcl_Interp*, int, char**) ()
-#19 0x0000000018b0c5b0 in TclInvokeStringCommand ()
-#20 0x0000000018b10f27 in TclNRRunCallbacks ()
-#21 0x0000000018b133f8 in TclEvalEx ()
-#22 0x0000000018b13d26 in Tcl_EvalEx ()
-#23 0x0000000018b13dcf in TclNREvalObjEx ()
-#24 0x0000000018bc95cb in TclNREvalFile ()
-#25 0x0000000018b27021 in TclNRSourceObjCmd ()
-#26 0x0000000018b10f27 in TclNRRunCallbacks ()
-#27 0x0000000018baf624 in Tcl_RecordAndEvalObj ()
-#28 0x0000000018baf788 in Tcl_RecordAndEval ()
-#29 0x000000000490d4ad in rdaEditCmdLineEnd(char*) ()
-#30 0x000000000f807d27 in seConsole::sesMode::DoExecute(std::string const&, void*) ()
-#31 0x0000000010920c3c in Redline::EmacsMode::AcceptLine() ()
-#32 0x00000000109291c1 in Redline::ModeCommand<Redline::EmacsMode>::CommandFnNoKeys(boost::function<void (Redline::EmacsMode&)> const&, Redline::Editor&) ()
-#33 0x0000000010938a1b in boost::detail::function::void_function_obj_invoker2<boost::_bi::bind_t<boost::_bi::unspecified, boost::function<void (Redline::Editor&)>, boost::_bi::list1<boost::arg<1> > >, void, Redline::Editor&, Redline::KeyCombination const&>::invoke(boost::detail::function::function_buffer&, Redline::Editor&, Redline::KeyCombination const&) ()
-#34 0x000000001093873c in Redline::Command::Run(Redline::Editor&, Redline::KeyCombination const&) const ()
-#35 0x000000001091d260 in Redline::Editor::Internals::Run(bool) ()
-#36 0x0000000018c13cf7 in FileHandlerEventProc ()
-#37 0x0000000018bd5747 in Tcl_ServiceEvent ()
-#38 0x0000000018bd5a49 in Tcl_DoOneEvent ()
-#39 0x00007f41d364323a in TqEventDispatcher::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) () from /software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so
-#40 0x00007f41d27ec0ca in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#41 0x00007f41d27f4954 in QCoreApplication::exec() () from /software/ECE/Innovus-19.1/tools/Qt/v5//64bit/lib/libcdsQt5Core.so.5
-#42 0x00007f41d3642897 in TqApplication::exec() () from /software/ECE/Innovus-19.1/tools/lib/64bit/libtq.so
-#43 0x00000000048ef5e1 in edi_app_init(Tcl_Interp*) ()
-#44 0x0000000018bd0287 in Tcl_MainEx ()
-#45 0x0000000004a47df3 in child_main(int, char**) ()
-#46 0x0000000003fdb69b in main ()
-A debugging session is active.
+sroute created 747 wires.
+ViaGen created 1992 vias, deleted 0 via to avoid violation.
++--------+----------------+----------------+
+|  Layer |     Created    |     Deleted    |
++--------+----------------+----------------+
+|   M1   |       747      |       NA       |
+|  VIA1  |       996      |        0       |
+|  VIA2  |       498      |        0       |
+|  VIA3  |       498      |        0       |
++--------+----------------+----------------+
+#% End sroute (date=03/14 12:55:39, total cpu=0:00:00.6, real=0:00:01.0, peak res=912.9M, current mem=912.9M)
+<CMD> deselectAll
+<CMD> setDrawView place
+<CMD> setDrawView fplan
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 0 -layer 3 -spreadType start -spacing 2 -offsetStart 25 -pin {clk {inst[0]} {inst[1]} {inst[2]} {inst[3]} {inst[4]} {inst[5]} {inst[6]} {inst[7]} {inst[8]} {inst[9]} {inst[10]} {inst[11]} {inst[12]} {inst[13]} {inst[14]} {inst[15]} {inst[16]} {mem_in[0]} {mem_in[1]} {mem_in[2]} {mem_in[3]} {mem_in[4]} {mem_in[5]} {mem_in[6]} {mem_in[7]} {mem_in[8]} {mem_in[9]} {mem_in[10]} {mem_in[11]} {mem_in[12]} {mem_in[13]} {mem_in[14]} {mem_in[15]} {mem_in[16]} {mem_in[17]} {mem_in[18]} {mem_in[19]} {mem_in[20]} {mem_in[21]} {mem_in[22]} {mem_in[23]} {mem_in[24]} {mem_in[25]} {mem_in[26]} {mem_in[27]} {mem_in[28]} {mem_in[29]} {mem_in[30]} {mem_in[31]} {mem_in[32]} {mem_in[33]} {mem_in[34]} {mem_in[35]} {mem_in[36]} {mem_in[37]} {mem_in[38]} {mem_in[39]} {mem_in[40]} {mem_in[41]} {mem_in[42]} {mem_in[43]} {mem_in[44]} {mem_in[45]} {mem_in[46]} {mem_in[47]} {mem_in[48]} {mem_in[49]} {mem_in[50]} {mem_in[51]} {mem_in[52]} {mem_in[53]} {mem_in[54]} {mem_in[55]} {mem_in[56]} {mem_in[57]} {mem_in[58]} {mem_in[59]} {mem_in[60]} {mem_in[61]} {mem_in[62]} {mem_in[63]} reset}
+Successfully spread [83] pins.
+editPin : finished (cpu = 0:00:01.1 real = 0:00:01.0, mem = 1240.0M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.1 -pinDepth 0.52 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 0 -layer 3 -spreadType start -spacing 5.0 -offsetStart 25 -pin {clk {inst[0]} {inst[1]} {inst[2]} {inst[3]} {inst[4]} {inst[5]} {inst[6]} {inst[7]} {inst[8]} {inst[9]} {inst[10]} {inst[11]} {inst[12]} {inst[13]} {inst[14]} {inst[15]} {inst[16]} {mem_in[0]} {mem_in[1]} {mem_in[2]} {mem_in[3]} {mem_in[4]} {mem_in[5]} {mem_in[6]} {mem_in[7]} {mem_in[8]} {mem_in[9]} {mem_in[10]} {mem_in[11]} {mem_in[12]} {mem_in[13]} {mem_in[14]} {mem_in[15]} {mem_in[16]} {mem_in[17]} {mem_in[18]} {mem_in[19]} {mem_in[20]} {mem_in[21]} {mem_in[22]} {mem_in[23]} {mem_in[24]} {mem_in[25]} {mem_in[26]} {mem_in[27]} {mem_in[28]} {mem_in[29]} {mem_in[30]} {mem_in[31]} {mem_in[32]} {mem_in[33]} {mem_in[34]} {mem_in[35]} {mem_in[36]} {mem_in[37]} {mem_in[38]} {mem_in[39]} {mem_in[40]} {mem_in[41]} {mem_in[42]} {mem_in[43]} {mem_in[44]} {mem_in[45]} {mem_in[46]} {mem_in[47]} {mem_in[48]} {mem_in[49]} {mem_in[50]} {mem_in[51]} {mem_in[52]} {mem_in[53]} {mem_in[54]} {mem_in[55]} {mem_in[56]} {mem_in[57]} {mem_in[58]} {mem_in[59]} {mem_in[60]} {mem_in[61]} {mem_in[62]} {mem_in[63]} reset}
+Successfully spread [83] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1241.8M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 3 -layer 3 -spreadType start -spacing 5.0 -offsetStart 25 -pin {{out[0]} {out[1]} {out[2]} {out[3]} {out[4]} {out[5]} {out[6]} {out[7]} {out[8]} {out[9]} {out[10]} {out[11]} {out[12]} {out[13]} {out[14]} {out[15]} {out[16]} {out[17]} {out[18]} {out[19]} {out[20]} {out[21]} {out[22]} {out[23]} {out[24]} {out[25]} {out[26]} {out[27]} {out[28]} {out[29]} {out[30]} {out[31]} {out[32]} {out[33]} {out[34]} {out[35]} {out[36]} {out[37]} {out[38]} {out[39]} {out[40]} {out[41]} {out[42]} {out[43]} {out[44]} {out[45]} {out[46]} {out[47]} {out[48]} {out[49]} {out[50]} {out[51]} {out[52]} {out[53]} {out[54]} {out[55]} {out[56]} {out[57]} {out[58]} {out[59]} {out[60]} {out[61]} {out[62]} {out[63]} {out[64]} {out[65]} {out[66]} {out[67]} {out[68]} {out[69]} {out[70]} {out[71]} {out[72]} {out[73]} {out[74]} {out[75]} {out[76]} {out[77]} {out[78]} {out[79]} {out[80]} {out[81]} {out[82]} {out[83]} {out[84]} {out[85]} {out[86]} {out[87]} {out[88]} {out[89]} {out[90]} {out[91]} {out[92]} {out[93]} {out[94]} {out[95]} {sum_out[0]} {sum_out[1]} {sum_out[2]} {sum_out[3]} {sum_out[4]} {sum_out[5]} {sum_out[6]} {sum_out[7]} {sum_out[8]} {sum_out[9]} {sum_out[10]} {sum_out[11]} {sum_out[12]} {sum_out[13]} {sum_out[14]} {sum_out[15]}}
+Selected [112] pin for spreading. Could not spread (18 out of 112) pins because of constraints on the selected pins or because of some blockage (pin blockage, routing blockage, power stripes etc.) on the selected region.
 
-	Inferior 1 [process 23119] will be detached.
+Following pins are not spread:
+  out[94]
+  out[95]
+  sum_out[0]
+  sum_out[1]
+  sum_out[2]
+  sum_out[3]
+  sum_out[4]
+  sum_out[5]
+  sum_out[6]
+  sum_out[7]
+  sum_out[8]
+  sum_out[9]
+  sum_out[10]
+  sum_out[11]
+  sum_out[12]
+  sum_out[13]
+  sum_out[14]
+  sum_out[15]
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1243.6M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> viewLast
+<CMD> viewNext
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 3 -layer 3 -spreadType start -spacing 2.0 -offsetStart 25 -pin {{out[0]} {out[1]} {out[2]} {out[3]} {out[4]} {out[5]} {out[6]} {out[7]} {out[8]} {out[9]} {out[10]} {out[11]} {out[12]} {out[13]} {out[14]} {out[15]} {out[16]} {out[17]} {out[18]} {out[19]} {out[20]} {out[21]} {out[22]} {out[23]} {out[24]} {out[25]} {out[26]} {out[27]} {out[28]} {out[29]} {out[30]} {out[31]} {out[32]} {out[33]} {out[34]} {out[35]} {out[36]} {out[37]} {out[38]} {out[39]} {out[40]} {out[41]} {out[42]} {out[43]} {out[44]} {out[45]} {out[46]} {out[47]} {out[48]} {out[49]} {out[50]} {out[51]} {out[52]} {out[53]} {out[54]} {out[55]} {out[56]} {out[57]} {out[58]} {out[59]} {out[60]} {out[61]} {out[62]} {out[63]} {out[64]} {out[65]} {out[66]} {out[67]} {out[68]} {out[69]} {out[70]} {out[71]} {out[72]} {out[73]} {out[74]} {out[75]} {out[76]} {out[77]} {out[78]} {out[79]} {out[80]} {out[81]} {out[82]} {out[83]} {out[84]} {out[85]} {out[86]} {out[87]} {out[88]} {out[89]} {out[90]} {out[91]} {out[92]} {out[93]} {out[94]} {out[95]} {sum_out[0]} {sum_out[1]} {sum_out[2]} {sum_out[3]} {sum_out[4]} {sum_out[5]} {sum_out[6]} {sum_out[7]} {sum_out[8]} {sum_out[9]} {sum_out[10]} {sum_out[11]} {sum_out[12]} {sum_out[13]} {sum_out[14]} {sum_out[15]}}
+Successfully spread [112] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1244.4M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> getPinAssignMode -pinEditInBatch -quiet
+<CMD> setPinAssignMode -pinEditInBatch true
+<CMD> editPin -pinWidth 0.1 -pinDepth 0.52 -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 3 -layer 3 -spreadType start -spacing 3.0 -offsetStart 25 -pin {{out[0]} {out[1]} {out[2]} {out[3]} {out[4]} {out[5]} {out[6]} {out[7]} {out[8]} {out[9]} {out[10]} {out[11]} {out[12]} {out[13]} {out[14]} {out[15]} {out[16]} {out[17]} {out[18]} {out[19]} {out[20]} {out[21]} {out[22]} {out[23]} {out[24]} {out[25]} {out[26]} {out[27]} {out[28]} {out[29]} {out[30]} {out[31]} {out[32]} {out[33]} {out[34]} {out[35]} {out[36]} {out[37]} {out[38]} {out[39]} {out[40]} {out[41]} {out[42]} {out[43]} {out[44]} {out[45]} {out[46]} {out[47]} {out[48]} {out[49]} {out[50]} {out[51]} {out[52]} {out[53]} {out[54]} {out[55]} {out[56]} {out[57]} {out[58]} {out[59]} {out[60]} {out[61]} {out[62]} {out[63]} {out[64]} {out[65]} {out[66]} {out[67]} {out[68]} {out[69]} {out[70]} {out[71]} {out[72]} {out[73]} {out[74]} {out[75]} {out[76]} {out[77]} {out[78]} {out[79]} {out[80]} {out[81]} {out[82]} {out[83]} {out[84]} {out[85]} {out[86]} {out[87]} {out[88]} {out[89]} {out[90]} {out[91]} {out[92]} {out[93]} {out[94]} {out[95]} {sum_out[0]} {sum_out[1]} {sum_out[2]} {sum_out[3]} {sum_out[4]} {sum_out[5]} {sum_out[6]} {sum_out[7]} {sum_out[8]} {sum_out[9]} {sum_out[10]} {sum_out[11]} {sum_out[12]} {sum_out[13]} {sum_out[14]} {sum_out[15]}}
+Successfully spread [112] pins.
+editPin : finished (cpu = 0:00:00.0 real = 0:00:00.0, mem = 1246.2M).
+<CMD> setPinAssignMode -pinEditInBatch false
+<CMD> zoomBox -45.07600 83.97300 738.85750 385.53300
+<CMD> zoomBox 42.81750 109.34800 709.16100 365.67400
+<CMD> zoomBox 117.52700 130.91700 683.91900 348.79400
+<CMD> zoomBox -52.12850 54.47600 870.14700 409.25300
+<CMD> zoomBox -129.75300 19.35450 955.27850 436.73950
+<CMD> zoomBox -221.07500 -21.96500 1055.43350 469.07650
+<CMD> saveDesign floorplan.enc
+#% Begin save design ... (date=03/14 13:00:44, mem=950.5M)
+% Begin Save ccopt configuration ... (date=03/14 13:00:44, mem=953.5M)
+% End Save ccopt configuration ... (date=03/14 13:00:44, total cpu=0:00:00.0, real=0:00:00.0, peak res=954.3M, current mem=954.3M)
+% Begin Save netlist data ... (date=03/14 13:00:44, mem=954.3M)
+Writing Binary DB to floorplan.enc.dat/fullchip.v.bin in single-threaded mode...
+% End Save netlist data ... (date=03/14 13:00:45, total cpu=0:00:00.1, real=0:00:01.0, peak res=954.5M, current mem=954.5M)
+Saving congestion map file floorplan.enc.dat/fullchip.route.congmap.gz ...
+% Begin Save AAE data ... (date=03/14 13:00:45, mem=954.9M)
+Saving AAE Data ...
+% End Save AAE data ... (date=03/14 13:00:45, total cpu=0:00:00.0, real=0:00:00.0, peak res=955.0M, current mem=955.0M)
+% Begin Save clock tree data ... (date=03/14 13:00:45, mem=955.4M)
+% End Save clock tree data ... (date=03/14 13:00:45, total cpu=0:00:00.0, real=0:00:00.0, peak res=955.5M, current mem=955.5M)
+Saving preference file floorplan.enc.dat/gui.pref.tcl ...
+Saving mode setting ...
+Saving global file ...
+% Begin Save floorplan data ... (date=03/14 13:00:45, mem=955.9M)
+Saving floorplan file ...
+% End Save floorplan data ... (date=03/14 13:00:46, total cpu=0:00:00.0, real=0:00:01.0, peak res=955.9M, current mem=955.9M)
+Saving PG file floorplan.enc.dat/fullchip.pg.gz
+*** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1244.1M) ***
+Saving Drc markers ...
+... No Drc file written since there is no markers found.
+% Begin Save placement data ... (date=03/14 13:00:46, mem=956.2M)
+** Saving stdCellPlacement_binary (version# 2) ...
+Save Adaptive View Pruing View Names to Binary file
+% End Save placement data ... (date=03/14 13:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=956.2M, current mem=956.2M)
+% Begin Save routing data ... (date=03/14 13:00:46, mem=956.2M)
+Saving route file ...
+*** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1244.1M) ***
+% End Save routing data ... (date=03/14 13:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=956.5M, current mem=956.5M)
+Saving property file floorplan.enc.dat/fullchip.prop
+*** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1247.1M) ***
+% Begin Save power constraints data ... (date=03/14 13:00:46, mem=957.0M)
+% End Save power constraints data ... (date=03/14 13:00:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=957.1M, current mem=957.1M)
+Cmin Cmax
+Generated self-contained design floorplan.enc.dat
+#% End save design ... (date=03/14 13:00:48, total cpu=0:00:02.2, real=0:00:04.0, peak res=960.7M, current mem=960.7M)
+*** Message Summary: 0 warning(s), 0 error(s)
 
-Quit anyway? (y or n) [answered Y; input not from terminal]
-[Inferior 1 (process 23119) detached]
-
-*** Memory Usage v#1 (Current mem = 741.590M, initial mem = 283.785M) ***
-*** Message Summary: 1 warning(s), 2 error(s)
-
---- Ending "Innovus" (totcpu=0:01:01, real=0:04:58, mem=741.6M) ---
+<CMD> setPlaceMode -timingDriven true -reorderScan false -congEffort medium -modulePlan false
+**WARN: (IMPTCM-125):	Option "-modulePlan" for command setPlaceMode is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+<CMD> setOptMode -effort high -powerEffort high -leakageToDynamicRatio 0.5 -fixFanoutLoad true -restruct true -verbose true
+<CMD> place_opt_design
+No user sequential activity specified, applying default sequential activity of "0.2" for Dynamic Power reporting.
+'set_default_switching_activity' finished successfully.
+*** Starting GigaPlace ***
+**INFO: user set placement options
+setPlaceMode -place_global_cong_effort medium -place_global_reorder_scan false -timingDriven true
+**INFO: user set opt options
+setOptMode -effort high -fixFanoutLoad true -leakageToDynamicRatio 0.5 -powerEffort high -restruct true -verbose true
+**INFO (INTERRUPT): The current script will stop before next command.
+**INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+-place_design_floorplan_mode false         # bool, default=false
+*** Start deleteBufferTree ***
+Innovus terminated by external (TERM) signal.

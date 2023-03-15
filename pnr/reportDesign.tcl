@@ -1,4 +1,4 @@
-
+set design "fullchip"
 
 verifyGeometry
 verifyConnectivity

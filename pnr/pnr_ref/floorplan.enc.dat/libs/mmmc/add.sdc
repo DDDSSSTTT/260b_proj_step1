@@ -1,1 +1,0 @@
-/home/linux/ieng6/ee260bwi23/s1ding/HW5/Q1/pnr/constraints/add.sdc

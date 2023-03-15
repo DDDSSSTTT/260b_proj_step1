@@ -1,7 +1,7 @@
 #######################################################
 #                                                     
 #  Innovus Command Logging File                     
-#  Created on Sun Mar 12 16:54:43 2023                
+#  Created on Tue Mar 14 18:55:21 2023                
 #                                                     
 #######################################################
 
@@ -16,20 +16,19 @@
 set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
 suppressMessage ENCEXT-2799
 win
+zoomBox -1.83500 -1.67200 0.79500 0.71100
+zoomBox -2.15100 -1.92800 0.94400 0.87600
 is_common_ui_mode
-restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat fullchip
-selectWire 10.0000 22.4350 683.2000 22.7650 1 VSS
-checkPinAssignment
-saveDesign floorplan.enc
-setPlaceMode -timingDriven true -reorderScan false -congEffort medium -modulePlan false
-setOptMode -effort high -powerEffort high -leakageToDynamicRatio 0.5 -fixFanoutLoad true -restruct true -verbose true
-place_opt_design
-saveDesign placement.enc
-verifyGeometry
-verifyConnectivity
-verifyGeometry
-verifyConnectivity
-setDrawView fplan
-setDrawView place
-setDrawView place
-optDesign -postRoute -drv
+restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/route.enc.dat fullchip
+streamOut ./outputGenerated//fullchip.gds2
+write_lef_abstract ./outputGenerated//fullchip.lef
+defOut -netlist -routing ./outputGenerated//fullchip.def
+saveNetlist ./outputGenerated//fullchip.pnr.v
+setAnalysisMode -setup
+set_analysis_view -setup WC_VIEW -hold WC_VIEW
+do_extract_model -view WC_VIEW -format dotlib ${output_dir}/${design}_WC.lib
+write_sdf -view WC_VIEW ${output_dir}/${design}_WC.sdf
+setAnalysisMode -hold
+set_analysis_view -setup BC_VIEW -hold BC_VIEW
+do_extract_model -view BC_VIEW -format dotlib ${output_dir}/${design}_BC.lib
+write_sdf -view BC_VIEW ${output_dir}/${design}_BC.sdf

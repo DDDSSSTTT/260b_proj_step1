@@ -1,597 +1,728 @@
-[03/12 16:17:11      0s] 
-[03/12 16:17:11      0s] Cadence Innovus(TM) Implementation System.
-[03/12 16:17:11      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
-[03/12 16:17:11      0s] 
-[03/12 16:17:11      0s] Version:	v19.17-s077_1, built Tue Dec 1 11:09:44 PST 2020
-[03/12 16:17:11      0s] Options:	
-[03/12 16:17:11      0s] Date:		Sun Mar 12 16:17:11 2023
-[03/12 16:17:11      0s] Host:		ieng6-ece-13.ucsd.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz 20480KB)
-[03/12 16:17:11      0s] OS:		CentOS Linux release 7.9.2009 (Core)
-[03/12 16:17:11      0s] 
-[03/12 16:17:11      0s] License:
-[03/12 16:17:11      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
-[03/12 16:17:11      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
-[03/12 16:17:28     15s] @(#)CDS: Innovus v19.17-s077_1 (64bit) 12/01/2020 11:09 (Linux 2.6.32-431.11.2.el6.x86_64)
-[03/12 16:17:28     15s] @(#)CDS: NanoRoute 19.17-s077_1 NR201130-0207/19_17-UB (database version 18.20, 510.7.1) {superthreading v1.53}
-[03/12 16:17:28     15s] @(#)CDS: AAE 19.17-s018 (64bit) 12/01/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
-[03/12 16:17:28     15s] @(#)CDS: CTE 19.17-s022_1 () Nov 18 2020 03:10:35 ( )
-[03/12 16:17:28     15s] @(#)CDS: SYNTECH 19.17-s005_1 () Oct 28 2020 05:12:49 ( )
-[03/12 16:17:28     15s] @(#)CDS: CPE v19.17-s044
-[03/12 16:17:28     15s] @(#)CDS: IQuantus/TQuantus 19.1.3-s268 (64bit) Mon Aug 10 22:57:12 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
-[03/12 16:17:28     15s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
-[03/12 16:17:28     15s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
-[03/12 16:17:28     15s] @(#)CDS: RCDB 11.14.18
-[03/12 16:17:28     15s] @(#)CDS: STYLUS 19.10-s021_1 (10/28/2020 08:51 PDT)
-[03/12 16:17:28     15s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_23902_ieng6-ece-13.ucsd.edu_s1ding_fIDtBu.
+[03/14 13:05:09      0s] 
+[03/14 13:05:09      0s] Cadence Innovus(TM) Implementation System.
+[03/14 13:05:09      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/14 13:05:09      0s] 
+[03/14 13:05:09      0s] Version:	v19.17-s077_1, built Tue Dec 1 11:09:44 PST 2020
+[03/14 13:05:09      0s] Options:	
+[03/14 13:05:09      0s] Date:		Tue Mar 14 13:05:09 2023
+[03/14 13:05:09      0s] Host:		ieng6-ece-19.ucsd.edu (x86_64 w/Linux 3.10.0-1160.80.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz 20480KB)
+[03/14 13:05:09      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[03/14 13:05:09      0s] 
+[03/14 13:05:09      0s] License:
+[03/14 13:05:09      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
+[03/14 13:05:09      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/14 13:05:27     15s] @(#)CDS: Innovus v19.17-s077_1 (64bit) 12/01/2020 11:09 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/14 13:05:27     15s] @(#)CDS: NanoRoute 19.17-s077_1 NR201130-0207/19_17-UB (database version 18.20, 510.7.1) {superthreading v1.53}
+[03/14 13:05:27     15s] @(#)CDS: AAE 19.17-s018 (64bit) 12/01/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/14 13:05:27     15s] @(#)CDS: CTE 19.17-s022_1 () Nov 18 2020 03:10:35 ( )
+[03/14 13:05:27     15s] @(#)CDS: SYNTECH 19.17-s005_1 () Oct 28 2020 05:12:49 ( )
+[03/14 13:05:27     15s] @(#)CDS: CPE v19.17-s044
+[03/14 13:05:27     15s] @(#)CDS: IQuantus/TQuantus 19.1.3-s268 (64bit) Mon Aug 10 22:57:12 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/14 13:05:27     15s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[03/14 13:05:27     15s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[03/14 13:05:27     15s] @(#)CDS: RCDB 11.14.18
+[03/14 13:05:27     15s] @(#)CDS: STYLUS 19.10-s021_1 (10/28/2020 08:51 PDT)
+[03/14 13:05:27     15s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_11925_ieng6-ece-19.ucsd.edu_s1ding_nVIE0s.
 
-[03/12 16:17:28     15s] Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
-[03/12 16:17:29     15s] 
-[03/12 16:17:29     15s] **INFO:  MMMC transition support version v31-84 
-[03/12 16:17:29     15s] 
-[03/12 16:17:29     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
-[03/12 16:17:29     15s] <CMD> suppressMessage ENCEXT-2799
-[03/12 16:17:29     15s] <CMD> win
-[03/12 16:17:30     16s] <CMD> zoomBox -0.03100 -0.03800 0.16100 0.13600
-[03/12 16:17:30     16s] <CMD> zoomBox -0.05500 -0.06800 0.21100 0.17300
-[03/12 16:17:34     16s] <CMD> set init_pwr_net VDD
-[03/12 16:17:34     16s] <CMD> set init_gnd_net VSS
-[03/12 16:17:34     16s] <CMD> set init_verilog ./netlist/fullchip.out.v
-[03/12 16:17:34     16s] <CMD> set init_design_netlisttype Verilog
-[03/12 16:17:34     16s] <CMD> set init_design_settop 1
-[03/12 16:17:34     16s] <CMD> set init_top_cell fullchip
-[03/12 16:17:34     16s] <CMD> set init_lef_file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef
-[03/12 16:17:34     16s] <CMD> create_library_set -name WC_LIB -timing $worst_timing_lib
-[03/12 16:17:34     16s] <CMD> create_library_set -name BC_LIB -timing $best_timing_lib
-[03/12 16:17:34     16s] <CMD> create_rc_corner -name Cmax -cap_table $worst_captbl -T 125
-[03/12 16:17:34     16s] <CMD> create_rc_corner -name Cmin -cap_table $best_captbl -T -40
-[03/12 16:17:34     16s] <CMD> create_delay_corner -name WC -library_set WC_LIB -rc_corner Cmax
-[03/12 16:17:34     16s] <CMD> create_delay_corner -name BC -library_set BC_LIB -rc_corner Cmin
-[03/12 16:17:34     16s] <CMD> create_constraint_mode -name CON -sdc_file [list $sdc]
-[03/12 16:17:34     16s] <CMD> create_analysis_view -name WC_VIEW -delay_corner WC -constraint_mode CON
-[03/12 16:17:34     16s] <CMD> create_analysis_view -name BC_VIEW -delay_corner BC -constraint_mode CON
-[03/12 16:17:34     16s] <CMD> init_design -setup WC_VIEW -hold BC_VIEW
-[03/12 16:17:34     16s] 
-[03/12 16:17:34     16s] Loading LEF file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef ...
-[03/12 16:17:34     16s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 28.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 867.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 877.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1014.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1024.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1161.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1171.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1308.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1318.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1372.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1383.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1604.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1614.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1769.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1771.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1772.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1776.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1778.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1779.
-[03/12 16:17:34     16s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
-[03/12 16:17:34     16s] The LEF parser will ignore this statement.
-[03/12 16:17:34     16s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/public/PDKdata/lef/tcbn65gplus_8lmT2.lef at line 1783.
-[03/12 16:17:34     16s] Set DBUPerIGU to M2 pitch 400.
-[03/12 16:17:34     17s] **WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
-[03/12 16:17:34     17s] Type 'man IMPLF-200' for more detail.
-[03/12 16:17:34     17s] 
-[03/12 16:17:34     17s] viaInitial starts at Sun Mar 12 16:17:34 2023
-viaInitial ends at Sun Mar 12 16:17:34 2023
+[03/14 13:05:27     15s] Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+[03/14 13:05:28     16s] 
+[03/14 13:05:28     16s] **INFO:  MMMC transition support version v31-84 
+[03/14 13:05:28     16s] 
+[03/14 13:05:28     16s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/14 13:05:28     16s] <CMD> suppressMessage ENCEXT-2799
+[03/14 13:05:28     16s] <CMD> win
+[03/14 13:05:32     17s] <CMD> setDrawView fplan
+[03/14 13:05:40     19s] <CMD> is_common_ui_mode
+[03/14 13:05:40     19s] <CMD> restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat fullchip
+[03/14 13:05:40     19s] #% Begin load design ... (date=03/14 13:05:40, mem=487.8M)
+[03/14 13:05:40     19s] Set Default Input Pin Transition as 0.1 ps.
+[03/14 13:05:40     19s] Loading design 'fullchip' saved by 'Innovus' '19.17-s077_1' on 'Tue Mar 14 13:00:48 2023'.
+[03/14 13:05:40     19s] % Begin Load MMMC data ... (date=03/14 13:05:40, mem=489.9M)
+[03/14 13:05:40     19s] % End Load MMMC data ... (date=03/14 13:05:40, total cpu=0:00:00.0, real=0:00:00.0, peak res=490.1M, current mem=490.1M)
+[03/14 13:05:40     19s] 
+[03/14 13:05:40     19s] Loading LEF file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef ...
+[03/14 13:05:40     19s] WARNING (LEFPARS-2007): NAMESCASESENSITIVE statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 28.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 867.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 877.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1014.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1024.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1161.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1171.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1308.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1318.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1372.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1383.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1604.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2019): TOPOFSTACKONLY statement is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1614.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1769.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1771.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1772.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1776.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1778.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2021): turn-via is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1779.
+[03/14 13:05:40     19s] WARNING (LEFPARS-2022): DIRECTION statement in VIARULE is obsolete in version 5.6 and later.
+[03/14 13:05:40     19s] The LEF parser will ignore this statement.
+[03/14 13:05:40     19s] To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/lef/tcbn65gplus_8lmT2.lef at line 1783.
+[03/14 13:05:40     19s] Set DBUPerIGU to M2 pitch 400.
+[03/14 13:05:41     19s] **WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[03/14 13:05:41     19s] Type 'man IMPLF-200' for more detail.
+[03/14 13:05:41     19s] 
+[03/14 13:05:41     19s] viaInitial starts at Tue Mar 14 13:05:41 2023
+viaInitial ends at Tue Mar 14 13:05:41 2023
 
 ##  Check design process and node:  
 ##  Both design process and tech node are not set.
 
-[03/12 16:17:34     17s] Reading WC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gpluswc.lib' ...
-[03/12 16:17:35     18s] Read 811 cells in library 'tcbn65gpluswc' 
-[03/12 16:17:35     18s] Reading BC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gplusbc.lib' ...
-[03/12 16:17:37     19s] Read 811 cells in library 'tcbn65gplusbc' 
-[03/12 16:17:37     19s] Ending "PreSetAnalysisView" (total cpu=0:00:02.6, real=0:00:03.0, peak res=601.9M, current mem=513.2M)
-[03/12 16:17:37     19s] *** End library_loading (cpu=0.04min, real=0.05min, mem=30.0M, fe_cpu=0.33min, fe_real=0.43min, fe_mem=742.3M) ***
-[03/12 16:17:37     19s] #% Begin Load netlist data ... (date=03/12 16:17:37, mem=513.2M)
-[03/12 16:17:37     19s] *** Begin netlist parsing (mem=742.3M) ***
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D1' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D1' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D0' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D0' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D1' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D1' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D0' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D0' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D4' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D2' is defined in LEF but not in the timing library.
-[03/12 16:17:37     19s] Type 'man IMPVL-159' for more detail.
-[03/12 16:17:37     19s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
-[03/12 16:17:37     19s] To increase the message display limit, refer to the product command reference manual.
-[03/12 16:17:37     19s] Created 811 new cells from 2 timing libraries.
-[03/12 16:17:37     19s] Reading netlist ...
-[03/12 16:17:37     19s] Backslashed names will retain backslash and a trailing blank character.
-[03/12 16:17:37     19s] Reading verilog netlist './netlist/fullchip.out.v'
-[03/12 16:17:37     20s] 
-[03/12 16:17:37     20s] *** Memory Usage v#1 (Current mem = 762.262M, initial mem = 283.785M) ***
-[03/12 16:17:37     20s] *** End netlist parsing (cpu=0:00:00.4, real=0:00:00.0, mem=762.3M) ***
-[03/12 16:17:37     20s] #% End Load netlist data ... (date=03/12 16:17:37, total cpu=0:00:00.4, real=0:00:00.0, peak res=549.6M, current mem=549.6M)
-[03/12 16:17:37     20s] Set top cell to fullchip.
-[03/12 16:17:37     20s] Hooked 1622 DB cells to tlib cells.
-[03/12 16:17:38     20s] Ending "BindLib:" (total cpu=0:00:00.2, real=0:00:01.0, peak res=574.5M, current mem=574.5M)
-[03/12 16:17:38     20s] Starting recursive module instantiation check.
-[03/12 16:17:38     20s] No recursion found.
-[03/12 16:17:38     20s] Building hierarchical netlist for Cell fullchip ...
-[03/12 16:17:38     20s] *** Netlist is unique.
-[03/12 16:17:38     20s] Setting Std. cell height to 3600 DBU (smallest netlist inst).
-[03/12 16:17:38     20s] ** info: there are 1832 modules.
-[03/12 16:17:38     20s] ** info: there are 42771 stdCell insts.
-[03/12 16:17:38     20s] 
-[03/12 16:17:38     20s] *** Memory Usage v#1 (Current mem = 843.688M, initial mem = 283.785M) ***
-[03/12 16:17:38     20s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
-[03/12 16:17:38     20s] Type 'man IMPFP-3961' for more detail.
-[03/12 16:17:38     20s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
-[03/12 16:17:38     20s] Type 'man IMPFP-3961' for more detail.
-[03/12 16:17:38     20s] Set Default Net Delay as 1000 ps.
-[03/12 16:17:38     20s] Set Default Net Load as 0.5 pF. 
-[03/12 16:17:38     20s] Set Default Input Pin Transition as 0.1 ps.
-[03/12 16:17:38     21s] Extraction setup Started 
-[03/12 16:17:38     21s] Initializing multi-corner RC extraction with 2 active RC Corners ...
-[03/12 16:17:38     21s] Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cworst.captable ...
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
-[03/12 16:17:38     21s] Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cbest.captable ...
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
-[03/12 16:17:38     21s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
-[03/12 16:17:38     21s] Importing multi-corner RC tables ... 
-[03/12 16:17:38     21s] Summary of Active RC-Corners : 
-[03/12 16:17:38     21s]  
-[03/12 16:17:38     21s]  Analysis View: WC_VIEW
-[03/12 16:17:38     21s]     RC-Corner Name        : Cmax
-[03/12 16:17:38     21s]     RC-Corner Index       : 0
-[03/12 16:17:38     21s]     RC-Corner Temperature : 125 Celsius
-[03/12 16:17:38     21s]     RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cworst.captable'
-[03/12 16:17:38     21s]     RC-Corner PreRoute Res Factor         : 1
-[03/12 16:17:38     21s]     RC-Corner PreRoute Cap Factor         : 1
-[03/12 16:17:38     21s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
-[03/12 16:17:38     21s]  
-[03/12 16:17:38     21s]  Analysis View: BC_VIEW
-[03/12 16:17:38     21s]     RC-Corner Name        : Cmin
-[03/12 16:17:38     21s]     RC-Corner Index       : 1
-[03/12 16:17:38     21s]     RC-Corner Temperature : -40 Celsius
-[03/12 16:17:38     21s]     RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/public/PDKdata/captbl/cln65g+_1p08m+alrdl_top2_cbest.captable'
-[03/12 16:17:38     21s]     RC-Corner PreRoute Res Factor         : 1
-[03/12 16:17:38     21s]     RC-Corner PreRoute Cap Factor         : 1
-[03/12 16:17:38     21s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
-[03/12 16:17:38     21s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
-[03/12 16:17:38     21s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
-[03/12 16:17:38     21s] LayerId::1 widthSet size::4
-[03/12 16:17:38     21s] LayerId::2 widthSet size::4
-[03/12 16:17:38     21s] LayerId::3 widthSet size::4
-[03/12 16:17:38     21s] LayerId::4 widthSet size::4
-[03/12 16:17:38     21s] LayerId::5 widthSet size::4
-[03/12 16:17:38     21s] LayerId::6 widthSet size::4
-[03/12 16:17:38     21s] LayerId::7 widthSet size::4
-[03/12 16:17:38     21s] LayerId::8 widthSet size::4
-[03/12 16:17:38     21s] Updating RC grid for preRoute extraction ...
-[03/12 16:17:38     21s] Initializing multi-corner capacitance tables ... 
-[03/12 16:17:38     21s] Initializing multi-corner resistance tables ...
-[03/12 16:17:38     21s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
-[03/12 16:17:38     21s] *Info: initialize multi-corner CTS.
-[03/12 16:17:38     21s] Ending "SetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=781.9M, current mem=601.5M)
-[03/12 16:17:38     21s] Reading timing constraints file './constraints/fullchip.sdc' ...
-[03/12 16:17:38     21s] Current (total cpu=0:00:21.4, real=0:00:27.0, peak res=792.2M, current mem=792.2M)
-[03/12 16:17:38     21s] **WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File ./constraints/fullchip.sdc, Line 9).
-[03/12 16:17:38     21s] 
-[03/12 16:17:38     21s] INFO (CTE): Reading of timing constraints file ./constraints/fullchip.sdc completed, with 1 WARNING
-[03/12 16:17:38     21s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=810.1M, current mem=810.1M)
-[03/12 16:17:39     21s] Current (total cpu=0:00:21.5, real=0:00:28.0, peak res=810.1M, current mem=810.1M)
-[03/12 16:17:39     21s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
-[03/12 16:17:39     21s] Creating Cell Server ...(0, 1, 1, 1)
-[03/12 16:17:39     21s] Summary for sequential cells identification: 
-[03/12 16:17:39     21s]   Identified SBFF number: 199
-[03/12 16:17:39     21s]   Identified MBFF number: 0
-[03/12 16:17:39     21s]   Identified SB Latch number: 0
-[03/12 16:17:39     21s]   Identified MB Latch number: 0
-[03/12 16:17:39     21s]   Not identified SBFF number: 0
-[03/12 16:17:39     21s]   Not identified MBFF number: 0
-[03/12 16:17:39     21s]   Not identified SB Latch number: 0
-[03/12 16:17:39     21s]   Not identified MB Latch number: 0
-[03/12 16:17:39     21s]   Number of sequential cells which are not FFs: 104
-[03/12 16:17:39     21s] Total number of combinational cells: 497
-[03/12 16:17:39     21s] Total number of sequential cells: 303
-[03/12 16:17:39     21s] Total number of tristate cells: 11
-[03/12 16:17:39     21s] Total number of level shifter cells: 0
-[03/12 16:17:39     21s] Total number of power gating cells: 0
-[03/12 16:17:39     21s] Total number of isolation cells: 0
-[03/12 16:17:39     21s] Total number of power switch cells: 0
-[03/12 16:17:39     21s] Total number of pulse generator cells: 0
-[03/12 16:17:39     21s] Total number of always on buffers: 0
-[03/12 16:17:39     21s] Total number of retention cells: 0
-[03/12 16:17:39     21s] List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16
-[03/12 16:17:39     21s] Total number of usable buffers: 18
-[03/12 16:17:39     21s] List of unusable buffers: BUFFD20 BUFFD24 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
-[03/12 16:17:39     21s] Total number of unusable buffers: 9
-[03/12 16:17:39     21s] List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16
-[03/12 16:17:39     21s] Total number of usable inverters: 18
-[03/12 16:17:39     21s] List of unusable inverters: CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD20 INVD24
-[03/12 16:17:39     21s] Total number of unusable inverters: 9
-[03/12 16:17:39     21s] List of identified usable delay cells:
-[03/12 16:17:39     21s] Total number of identified usable delay cells: 0
-[03/12 16:17:39     21s] List of identified unusable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
-[03/12 16:17:39     21s] Total number of identified unusable delay cells: 9
-[03/12 16:17:39     21s] Creating Cell Server, finished. 
-[03/12 16:17:39     21s] 
-[03/12 16:17:39     21s] All delay cells are dont_use. Buffers will be used to fix hold violations.
-[03/12 16:17:39     21s] Deleting Cell Server ...
-[03/12 16:17:39     21s] 
-[03/12 16:17:39     21s] *** Summary of all messages that are not suppressed in this session:
-[03/12 16:17:39     21s] Severity  ID               Count  Summary                                  
-[03/12 16:17:39     21s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
-[03/12 16:17:39     21s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
-[03/12 16:17:39     21s] WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
-[03/12 16:17:39     21s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
-[03/12 16:17:39     21s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
-[03/12 16:17:39     21s] WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
-[03/12 16:17:39     21s] WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
-[03/12 16:17:39     21s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
-[03/12 16:17:39     21s] *** Message Summary: 1634 warning(s), 0 error(s)
-[03/12 16:17:39     21s] 
-[03/12 16:17:39     21s] <CMD> set_interactive_constraint_modes {CON}
-[03/12 16:17:39     21s] <CMD> setDesignMode -process 65
-[03/12 16:17:39     21s] ##  Process: 65            (User Set)               
-[03/12 16:17:39     21s] ##     Node: (not set)                           
-[03/12 16:17:39     21s] 
+[03/14 13:05:41     19s] Loading view definition file from /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/viewDefinition.tcl
+[03/14 13:05:41     19s] Reading WC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gpluswc.lib' ...
+[03/14 13:05:42     21s] Read 811 cells in library 'tcbn65gpluswc' 
+[03/14 13:05:42     21s] Reading BC_LIB timing library '/home/linux/ieng6/ee260bwi23/public/PDKdata/lib/tcbn65gplusbc.lib' ...
+[03/14 13:05:43     22s] Read 811 cells in library 'tcbn65gplusbc' 
+[03/14 13:05:43     22s] Ending "PreSetAnalysisView" (total cpu=0:00:02.7, real=0:00:02.0, peak res=602.7M, current mem=515.5M)
+[03/14 13:05:43     22s] *** End library_loading (cpu=0.05min, real=0.03min, mem=28.0M, fe_cpu=0.38min, fe_real=0.57min, fe_mem=751.2M) ***
+[03/14 13:05:43     22s] % Begin Load netlist data ... (date=03/14 13:05:43, mem=515.3M)
+[03/14 13:05:43     22s] *** Begin netlist parsing (mem=751.2M) ***
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+[03/14 13:05:43     22s] Type 'man IMPVL-159' for more detail.
+[03/14 13:05:43     22s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[03/14 13:05:43     22s] To increase the message display limit, refer to the product command reference manual.
+[03/14 13:05:43     22s] Created 811 new cells from 2 timing libraries.
+[03/14 13:05:43     22s] Reading netlist ...
+[03/14 13:05:43     22s] Backslashed names will retain backslash and a trailing blank character.
+[03/14 13:05:43     22s] Reading verilogBinary netlist '/home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.v.bin'
+[03/14 13:05:43     22s] Reading binary database version 2 in 1-threaded mode
+[03/14 13:05:43     22s] 
+[03/14 13:05:43     22s] *** Memory Usage v#1 (Current mem = 760.238M, initial mem = 283.785M) ***
+[03/14 13:05:43     22s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=760.2M) ***
+[03/14 13:05:43     22s] % End Load netlist data ... (date=03/14 13:05:43, total cpu=0:00:00.1, real=0:00:00.0, peak res=535.7M, current mem=535.7M)
+[03/14 13:05:43     22s] Set top cell to fullchip.
+[03/14 13:05:44     22s] Hooked 1622 DB cells to tlib cells.
+[03/14 13:05:44     23s] Ending "BindLib:" (total cpu=0:00:00.2, real=0:00:00.0, peak res=569.5M, current mem=569.5M)
+[03/14 13:05:44     23s] Starting recursive module instantiation check.
+[03/14 13:05:44     23s] No recursion found.
+[03/14 13:05:44     23s] Building hierarchical netlist for Cell fullchip ...
+[03/14 13:05:44     23s] *** Netlist is unique.
+[03/14 13:05:44     23s] Setting Std. cell height to 3600 DBU (smallest netlist inst).
+[03/14 13:05:44     23s] ** info: there are 1832 modules.
+[03/14 13:05:44     23s] ** info: there are 19683 stdCell insts.
+[03/14 13:05:44     23s] 
+[03/14 13:05:44     23s] *** Memory Usage v#1 (Current mem = 830.164M, initial mem = 283.785M) ***
+[03/14 13:05:44     23s] *info: set bottom ioPad orient R0
+[03/14 13:05:44     23s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/14 13:05:44     23s] Type 'man IMPFP-3961' for more detail.
+[03/14 13:05:44     23s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/14 13:05:44     23s] Type 'man IMPFP-3961' for more detail.
+[03/14 13:05:44     23s] Set Default Net Delay as 1000 ps.
+[03/14 13:05:44     23s] Set Default Net Load as 0.5 pF. 
+[03/14 13:05:44     23s] Set Default Input Pin Transition as 0.1 ps.
+[03/14 13:05:44     23s] Loading preference file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/gui.pref.tcl ...
+[03/14 13:05:44     23s] ##  Process: 65            (User Set)               
+[03/14 13:05:44     23s] ##     Node: (not set)                           
+[03/14 13:05:44     23s] 
 ##  Check design process and node:  
 ##  Design tech node is not set.
 
-[03/12 16:17:39     21s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
-[03/12 16:17:39     21s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
-[03/12 16:17:39     21s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
-[03/12 16:17:39     21s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
-[03/12 16:17:39     21s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
-[03/12 16:18:45     33s] <CMD> floorPlan -site core -r 1 0.50 10.0 10.0 10.0 10.0
-[03/12 16:18:45     33s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
-[03/12 16:18:45     33s] Type 'man IMPFP-3961' for more detail.
-[03/12 16:18:45     33s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
-[03/12 16:18:45     33s] Type 'man IMPFP-3961' for more detail.
-[03/12 16:18:45     33s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
-[03/12 16:18:45     33s] <CMD> timeDesign -preplace -prefix preplace
-[03/12 16:18:45     33s] Setting timing_disable_library_data_to_data_checks to 'true'.
-[03/12 16:18:45     33s] Setting timing_disable_user_data_to_data_checks to 'true'.
-[03/12 16:18:45     33s] Set Using Default Delay Limit as 101.
-[03/12 16:18:45     33s] **WARN: (IMPDC-1629):	The default delay limit was set to 101. This is less than the default of 1000 and may result in inaccurate delay calculation for nets with a fanout higher than the setting.  If needed, the default delay limit may be adjusted by running the command 'set delaycal_use_default_delay_limit'.
-[03/12 16:18:45     33s] Setting High Fanout Nets ( > 100 ) as ideal temporarily for -prePlace option
-[03/12 16:18:45     33s] Set Default Net Delay as 0 ps.
-[03/12 16:18:45     33s] Set Default Net Load as 0 pF. 
-[03/12 16:18:45     33s] Effort level <high> specified for reg2reg path_group
-[03/12 16:18:47     35s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1139.4M
-[03/12 16:18:47     35s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1139.4M
-[03/12 16:18:47     35s] Use non-trimmed site array because memory saving is not enough.
-[03/12 16:18:47     36s] OPERPROF:     Starting RoutingBlockageFromWireViaStBox at level 3, MEM:1144.5M
-[03/12 16:18:47     36s] OPERPROF:     Finished RoutingBlockageFromWireViaStBox at level 3, CPU:0.000, REAL:0.000, MEM:1144.5M
-[03/12 16:18:47     36s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.100, REAL:0.107, MEM:1144.5M
-[03/12 16:18:47     36s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.120, REAL:0.123, MEM:1145.5M
-[03/12 16:18:47     36s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1145.5M
-[03/12 16:18:47     36s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.001, MEM:1140.4M
-[03/12 16:18:47     36s] Starting delay calculation for Setup views
-[03/12 16:18:48     36s] AAE DB initialization (MEM=1163.31 CPU=0:00:00.3 REAL=0:00:01.0) 
-[03/12 16:18:48     36s] #################################################################################
-[03/12 16:18:48     36s] # Design Stage: PreRoute
-[03/12 16:18:48     36s] # Design Name: fullchip
-[03/12 16:18:48     36s] # Design Mode: 65nm
-[03/12 16:18:48     36s] # Analysis Mode: MMMC Non-OCV 
-[03/12 16:18:48     36s] # Parasitics Mode: No SPEF/RCDB
-[03/12 16:18:48     36s] # Signoff Settings: SI Off 
-[03/12 16:18:48     36s] #################################################################################
-[03/12 16:18:48     36s] Calculate delays in BcWc mode...
-[03/12 16:18:48     37s] Topological Sorting (REAL = 0:00:00.0, MEM = 1169.9M, InitMEM = 1163.3M)
-[03/12 16:18:48     37s] Start delay calculation (fullDC) (1 T). (MEM=1169.85)
-[03/12 16:18:49     37s] Start AAE Lib Loading. (MEM=1181.37)
-[03/12 16:18:49     37s] End AAE Lib Loading. (MEM=1209.98 CPU=0:00:00.0 Real=0:00:00.0)
-[03/12 16:18:49     37s] End AAE Lib Interpolated Model. (MEM=1209.98 CPU Time=0:00:00.0, Real Time=0:00:00.0)
-[03/12 16:18:49     37s] First Iteration Infinite Tw... 
-[03/12 16:18:55     44s] Total number of fetched objects 47209
-[03/12 16:18:55     44s] End Timing Check Calculation. (CPU Time=0:00:00.3, Real Time=0:00:00.0)
-[03/12 16:18:55     44s] End delay calculation. (MEM=1345.38 CPU=0:00:05.9 REAL=0:00:05.0)
-[03/12 16:18:56     44s] End delay calculation (fullDC). (MEM=1318.3 CPU=0:00:07.4 REAL=0:00:08.0)
-[03/12 16:18:56     44s] *** CDM Built up (cpu=0:00:07.8  real=0:00:08.0  mem= 1318.3M) ***
-[03/12 16:18:57     45s] *** Done Building Timing Graph (cpu=0:00:09.7 real=0:00:10.0 totSessionCpu=0:00:45.7 mem=1318.3M)
-[03/12 16:18:58     46s] 
-------------------------------------------------------------
-          timeDesign Summary                             
-------------------------------------------------------------
-
-Setup views included:
- WC_VIEW 
-
-+--------------------+---------+---------+---------+
-|     Setup mode     |   all   | reg2reg | default |
-+--------------------+---------+---------+---------+
-|           WNS (ns):| -0.919  | -0.919  | -0.365  |
-|           TNS (ns):| -3144.0 | -2895.0 |-321.715 |
-|    Violating Paths:|  7767   |  5572   |  2708   |
-|          All Paths:|  22408  |  11054  |  16754  |
-+--------------------+---------+---------+---------+
-
-Density: 49.992%
-------------------------------------------------------------
-Set Using Default Delay Limit as 1000.
-[03/12 16:18:58     47s] Resetting back High Fanout Nets as non-ideal
-[03/12 16:18:58     47s] Set Default Net Delay as 1000 ps.
-[03/12 16:18:58     47s] Set Default Net Load as 0.5 pF. 
-[03/12 16:18:58     47s] Reported timing to dir ./timingReports
-[03/12 16:18:58     47s] Total CPU time: 13.5 sec
-[03/12 16:18:58     47s] Total Real time: 13.0 sec
-[03/12 16:18:58     47s] Total Memory Usage: 1225.777344 Mbytes
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] =============================================================================================
-[03/12 16:18:58     47s]  Final TAT Report for timeDesign
-[03/12 16:18:58     47s] =============================================================================================
-[03/12 16:18:58     47s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
-[03/12 16:18:58     47s] ---------------------------------------------------------------------------------------------
-[03/12 16:18:58     47s] [ ViewPruning            ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
-[03/12 16:18:58     47s] [ TimingUpdate           ]      1   0:00:01.2  (   8.6 % )     0:00:09.6 /  0:00:09.7    1.0
-[03/12 16:18:58     47s] [ FullDelayCalc          ]      1   0:00:08.5  (  63.1 % )     0:00:08.5 /  0:00:08.5    1.0
-[03/12 16:18:58     47s] [ OptSummaryReport       ]      1   0:00:00.3  (   2.4 % )     0:00:11.1 /  0:00:11.1    1.0
-[03/12 16:18:58     47s] [ TimingReport           ]      1   0:00:00.0  (   0.0 % )     0:00:00.7 /  0:00:00.7    1.0
-[03/12 16:18:58     47s] [ GenerateReports        ]      1   0:00:00.4  (   2.9 % )     0:00:00.4 /  0:00:00.4    1.0
-[03/12 16:18:58     47s] [ ReportAnalysisSummary  ]      2   0:00:00.7  (   5.3 % )     0:00:00.7 /  0:00:00.7    1.0
-[03/12 16:18:58     47s] [ MISC                   ]          0:00:02.4  (  17.7 % )     0:00:02.4 /  0:00:02.4    1.0
-[03/12 16:18:58     47s] ---------------------------------------------------------------------------------------------
-[03/12 16:18:58     47s]  timeDesign TOTAL                   0:00:13.4  ( 100.0 % )     0:00:13.4 /  0:00:13.5    1.0
-[03/12 16:18:58     47s] ---------------------------------------------------------------------------------------------
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] <CMD> globalNetConnect VDD -type pgpin -pin VDD -inst * -verbose
-[03/12 16:18:58     47s] 42771 new pwr-pin connections were made to global net 'VDD'.
-[03/12 16:18:58     47s] <CMD> globalNetConnect VSS -type pgpin -pin VSS -inst * -verbose
-[03/12 16:18:58     47s] 42771 new gnd-pin connections were made to global net 'VSS'.
-[03/12 16:18:58     47s] <CMD> addRing -spacing {top 2 bottom 2 left 2 right 2} -width {top 3 bottom 3 left 3 right 3} -layer {top M1 bottom M1 left M2 right M2} -center 1 -type core_rings -nets {VSS  VDD}
-[03/12 16:18:58     47s] #% Begin addRing (date=03/12 16:18:58, mem=923.6M)
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1225.8M)
-[03/12 16:18:58     47s] Ring generation is complete.
-[03/12 16:18:58     47s] vias are now being generated.
-[03/12 16:18:58     47s] addRing created 8 wires.
-[03/12 16:18:58     47s] ViaGen created 8 vias, deleted 0 via to avoid violation.
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] |  Layer |     Created    |     Deleted    |
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] |   M1   |        4       |       NA       |
-[03/12 16:18:58     47s] |  VIA1  |        8       |        0       |
-[03/12 16:18:58     47s] |   M2   |        4       |       NA       |
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] #% End addRing (date=03/12 16:18:58, total cpu=0:00:00.0, real=0:00:00.0, peak res=925.7M, current mem=925.7M)
-[03/12 16:18:58     47s] <CMD> setAddStripeMode -break_at block_ring
-[03/12 16:18:58     47s] Stripe will break at block ring.
-[03/12 16:18:58     47s] <CMD> addStripe -number_of_sets 2 -spacing 6 -layer M4 -width 2 -nets { VSS VDD }
-[03/12 16:18:58     47s] #% Begin addStripe (date=03/12 16:18:58, mem=925.8M)
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] Initialize fgc environment(mem: 1225.8M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1225.8M)
-[03/12 16:18:58     47s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1225.8M)
-[03/12 16:18:58     47s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1225.8M)
-[03/12 16:18:58     47s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1225.8M)
-[03/12 16:18:58     47s] Starting stripe generation ...
-[03/12 16:18:58     47s] Non-Default Mode Option Settings :
-[03/12 16:18:58     47s]   NONE
-[03/12 16:18:58     47s] Stripe generation is complete.
-[03/12 16:18:58     47s] vias are now being generated.
-[03/12 16:18:58     47s] addStripe created 4 wires.
-[03/12 16:18:58     47s] ViaGen created 24 vias, deleted 0 via to avoid violation.
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] |  Layer |     Created    |     Deleted    |
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] |  VIA1  |        8       |        0       |
-[03/12 16:18:58     47s] |  VIA2  |        8       |        0       |
-[03/12 16:18:58     47s] |  VIA3  |        8       |        0       |
-[03/12 16:18:58     47s] |   M4   |        4       |       NA       |
-[03/12 16:18:58     47s] +--------+----------------+----------------+
-[03/12 16:18:58     47s] #% End addStripe (date=03/12 16:18:58, total cpu=0:00:00.1, real=0:00:00.0, peak res=927.4M, current mem=927.4M)
-[03/12 16:18:58     47s] <CMD> sroute
-[03/12 16:18:58     47s] #% Begin sroute (date=03/12 16:18:58, mem=927.4M)
-[03/12 16:18:58     47s] *** Begin SPECIAL ROUTE on Sun Mar 12 16:18:58 2023 ***
-[03/12 16:18:58     47s] SPECIAL ROUTE ran on directory: /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr
-[03/12 16:18:58     47s] SPECIAL ROUTE ran on machine: ieng6-ece-13.ucsd.edu (Linux 3.10.0-1160.80.1.el7.x86_64 Xeon 2.00Ghz)
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] Begin option processing ...
-[03/12 16:18:58     47s] srouteConnectPowerBump set to false
-[03/12 16:18:58     47s] routeSpecial set to true
-[03/12 16:18:58     47s] srouteConnectConverterPin set to false
-[03/12 16:18:58     47s] srouteFollowCorePinEnd set to 3
-[03/12 16:18:58     47s] srouteJogControl set to "preferWithChanges differentLayer"
-[03/12 16:18:58     47s] sroutePadPinAllPorts set to true
-[03/12 16:18:58     47s] sroutePreserveExistingRoutes set to true
-[03/12 16:18:58     47s] srouteRoutePowerBarPortOnBothDir set to true
-[03/12 16:18:58     47s] End option processing: cpu: 0:00:00, real: 0:00:00, peak: 2264.00 megs.
-[03/12 16:18:58     47s] 
-[03/12 16:18:58     47s] Reading DB technology information...
-[03/12 16:18:58     47s] Finished reading DB technology information.
-[03/12 16:18:58     47s] Reading floorplan and netlist information...
-[03/12 16:18:58     47s] Finished reading floorplan and netlist information.
-[03/12 16:18:59     47s] Read in 17 layers, 8 routing layers, 1 overlap layer
-[03/12 16:18:59     47s] Read in 846 macros, 144 used
-[03/12 16:18:59     47s] Read in 144 components
-[03/12 16:18:59     47s]   144 core components: 144 unplaced, 0 placed, 0 fixed
-[03/12 16:18:59     47s] Read in 331 logical pins
-[03/12 16:18:59     47s] Read in 331 nets
-[03/12 16:18:59     47s] Read in 2 special nets, 2 routed
-[03/12 16:18:59     47s] Read in 288 terminals
-[03/12 16:18:59     47s] Begin power routing ...
-[03/12 16:18:59     47s] **WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VDD net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
-[03/12 16:18:59     47s] **WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VDD net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
-[03/12 16:18:59     47s] Type 'man IMPSR-1256' for more detail.
-[03/12 16:18:59     47s] Cannot find any AREAIO class pad pin of net VDD. Check net list, or change port class in the technology file, or change option to include pin in given range.
-[03/12 16:18:59     47s] **WARN: (IMPSR-1254):	Unable to connect the specified objects, since block pins of the VSS net were not found in the design. Check netlist or change the parameter value to include block pins in the design.
-[03/12 16:18:59     47s] **WARN: (IMPSR-1256):	Unable to find any CORE class pad pin of the VSS net due to unavailability of the pin or check netlist in the routing area or layer. Change routing area or layer to include the expected pin or check netlist. Alternatively, change port class in the technology file.
-[03/12 16:18:59     47s] Type 'man IMPSR-1256' for more detail.
-[03/12 16:18:59     47s] Cannot find any AREAIO class pad pin of net VSS. Check net list, or change port class in the technology file, or change option to include pin in given range.
-[03/12 16:18:59     47s] CPU time for FollowPin 0 seconds
-[03/12 16:18:59     47s] CPU time for FollowPin 0 seconds
-[03/12 16:18:59     48s]   Number of IO ports routed: 0
-[03/12 16:18:59     48s]   Number of Block ports routed: 0
-[03/12 16:18:59     48s]   Number of Stripe ports routed: 0
-[03/12 16:18:59     48s]   Number of Core ports routed: 746
-[03/12 16:18:59     48s]   Number of Pad ports routed: 0
-[03/12 16:18:59     48s]   Number of Power Bump ports routed: 0
-[03/12 16:18:59     48s]   Number of Followpin connections: 373
-[03/12 16:18:59     48s] End power routing: cpu: 0:00:00, real: 0:00:00, peak: 2281.00 megs.
-[03/12 16:18:59     48s] 
-[03/12 16:18:59     48s] 
-[03/12 16:18:59     48s] 
-[03/12 16:18:59     48s]  Begin updating DB with routing results ...
-[03/12 16:18:59     48s]  Updating DB with 0 via definition ...Extracting standard cell pins and blockage ...... 
-[03/12 16:18:59     48s] Pin and blockage extraction finished
-[03/12 16:18:59     48s] 
-[03/12 16:18:59     48s] sroute created 1119 wires.
-[03/12 16:18:59     48s] ViaGen created 2984 vias, deleted 0 via to avoid violation.
-[03/12 16:18:59     48s] +--------+----------------+----------------+
-[03/12 16:18:59     48s] |  Layer |     Created    |     Deleted    |
-[03/12 16:18:59     48s] +--------+----------------+----------------+
-[03/12 16:18:59     48s] |   M1   |      1119      |       NA       |
-[03/12 16:18:59     48s] |  VIA1  |      1492      |        0       |
-[03/12 16:18:59     48s] |  VIA2  |       746      |        0       |
-[03/12 16:18:59     48s] |  VIA3  |       746      |        0       |
-[03/12 16:18:59     48s] +--------+----------------+----------------+
-[03/12 16:18:59     48s] #% End sroute (date=03/12 16:18:59, total cpu=0:00:00.8, real=0:00:01.0, peak res=938.9M, current mem=938.9M)
-[03/12 16:19:05     49s] <CMD> zoomBox 103.64650 90.20050 1275.08450 540.82400
-[03/12 16:19:06     49s] <CMD> zoomBox 167.66800 136.49950 1163.39050 519.52950
-[03/12 16:19:06     49s] <CMD> zoomBox 222.08650 175.85350 1068.45050 501.42900
-[03/12 16:19:06     49s] <CMD> zoomBox 267.84550 208.90750 987.25500 485.64650
-[03/12 16:19:07     49s] <CMD> zoomBox 306.15000 236.41250 917.64850 471.64100
-[03/12 16:19:07     49s] <CMD> zoomBox -415.23150 -281.64700 2224.90250 733.94800
-[03/12 16:19:07     49s] <CMD> zoomBox -580.97600 -400.76450 2525.06400 794.05300
-[03/12 16:19:09     50s] <CMD> panPage 0 1
-[03/12 16:19:10     50s] <CMD> panPage 0 -1
-[03/12 16:20:21     64s] <CMD> setLayerPreference M1 -isVisible 0
-[03/12 16:20:23     64s] <CMD> setLayerPreference M2 -isVisible 0
-[03/12 16:20:27     65s] <CMD> setLayerPreference M3 -isVisible 0
-[03/12 16:20:28     65s] <CMD> setLayerPreference M3 -isVisible 1
-[03/12 16:20:30     66s] <CMD> setLayerPreference M4 -isVisible 0
-[03/12 16:20:31     66s] <CMD> setLayerPreference M4 -isVisible 1
-[03/12 16:20:34     66s] <CMD> setLayerPreference M4 -isVisible 0
-[03/12 16:20:35     66s] <CMD> setLayerPreference M4 -isVisible 1
-[03/12 16:20:37     67s] <CMD> setLayerPreference M4 -isVisible 0
-[03/12 16:20:38     67s] <CMD> setLayerPreference M4 -isVisible 1
-[03/12 16:20:41     68s] <CMD> setLayerPreference M1 -isVisible 1
-[03/12 16:20:42     68s] <CMD> setLayerPreference M2 -isVisible 1
-[03/12 16:22:20     86s] <CMD> getPinAssignMode -pinEditInBatch -quiet
-[03/12 16:22:20     86s] <CMD> setPinAssignMode -pinEditInBatch true
-[03/12 16:22:20     86s] <CMD> editPin -fixOverlap 1 -unit MICRON -spreadDirection clockwise -edge 0 -layer 3 -spreadType start -spacing 0.2 -offsetStart 25 -pin {clk {inst[0]} {inst[1]} {inst[2]} {inst[3]} {inst[4]} {inst[5]} {inst[6]} {inst[7]} {inst[8]} {inst[9]} {inst[10]} {inst[11]} {inst[12]} {inst[13]} {inst[14]} {inst[15]} {inst[16]} {mem_in[0]} {mem_in[1]} {mem_in[2]} {mem_in[3]} {mem_in[4]} {mem_in[5]} {mem_in[6]} {mem_in[7]} {mem_in[8]} {mem_in[9]} {mem_in[10]} {mem_in[11]} {mem_in[12]} {mem_in[13]} {mem_in[14]} {mem_in[15]} {mem_in[16]} {mem_in[17]} {mem_in[18]} {mem_in[19]} {mem_in[20]} {mem_in[21]} {mem_in[22]} {mem_in[23]} {mem_in[24]} {mem_in[25]} {mem_in[26]} {mem_in[27]} {mem_in[28]} {mem_in[29]} {mem_in[30]} {mem_in[31]} {mem_in[32]} {mem_in[33]} {mem_in[34]} {mem_in[35]} {mem_in[36]} {mem_in[37]} {mem_in[38]} {mem_in[39]} {mem_in[40]} {mem_in[41]} {mem_in[42]} {mem_in[43]} {mem_in[44]} {mem_in[45]} {mem_in[46]} {mem_in[47]} {mem_in[48]} {mem_in[49]} {mem_in[50]} {mem_in[51]} {mem_in[52]} {mem_in[53]} {mem_in[54]} {mem_in[55]} {mem_in[56]} {mem_in[57]} {mem_in[58]} {mem_in[59]} {mem_in[60]} {mem_in[61]} {mem_in[62]} {mem_in[63]} {mem_in[64]} {mem_in[65]} {mem_in[66]} {mem_in[67]} {mem_in[68]} {mem_in[69]} {mem_in[70]} {mem_in[71]} {mem_in[72]} {mem_in[73]} {mem_in[74]} {mem_in[75]} {mem_in[76]} {mem_in[77]} {mem_in[78]} {mem_in[79]} {mem_in[80]} {mem_in[81]} {mem_in[82]} {mem_in[83]} {mem_in[84]} {mem_in[85]} {mem_in[86]} {mem_in[87]} {mem_in[88]} {mem_in[89]} {mem_in[90]} {mem_in[91]} {mem_in[92]} {mem_in[93]} {mem_in[94]} {mem_in[95]} {mem_in[96]} {mem_in[97]} {mem_in[98]} {mem_in[99]} {mem_in[100]} {mem_in[101]} {mem_in[102]} {mem_in[103]} {mem_in[104]} {mem_in[105]} {mem_in[106]} {mem_in[107]} {mem_in[108]} {mem_in[109]} {mem_in[110]} {mem_in[111]} {mem_in[112]} {mem_in[113]} {mem_in[114]} {mem_in[115]} {mem_in[116]} {mem_in[117]} {mem_in[118]} {mem_in[119]} {mem_in[120]} {mem_in[121]} {mem_in[122]} {mem_in[123]} {mem_in[124]} {mem_in[125]} {mem_in[126]} {mem_in[127]} reset}
-[03/12 16:22:21     88s] Successfully spread [147] pins.
-[03/12 16:22:21     88s] editPin : finished (cpu = 0:00:01.2 real = 0:00:01.0, mem = 1293.8M).
-[03/12 16:22:21     88s] <CMD> setPinAssignMode -pinEditInBatch false
-[03/12 16:22:35     91s] <CMD> setDrawView ameba
-[03/12 16:22:36     91s] <CMD> setDrawView place
-[03/12 16:22:37     91s] <CMD> setDrawView fplan
-[03/12 16:22:40     92s] <CMD> setDrawView fplan
-[03/12 16:22:43     92s] <CMD> selectObject Module core_instance
-[03/12 16:22:44     93s] <CMD> gui_select -rect {-267.70050 364.21000 -369.69750 456.49250}
-[03/12 16:22:44     93s] <CMD> deselectAll
-[03/12 16:22:47     93s] <CMD> uiSetTool move
-[03/12 16:22:49     94s] <CMD> selectObject Module core_instance
-[03/12 16:22:53     95s] <CMD> setObjFPlanBox Module core_instance 6.869 12.1425 679.9775 681.7555
-[03/12 16:22:58     96s] 
+[03/14 13:05:44     23s] Applying the recommended capacitance filtering threshold values for 65nm process node: total_c_th=0, relative_c_th=1 and coupling_c_th=0.1.
+[03/14 13:05:44     23s] 	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+[03/14 13:05:44     23s] 	Capacitance filtering mode(-capFilterMode option of the setExtractRCMode) is 'relAndCoup' for all engines.
+[03/14 13:05:44     23s] 	The accuracy mode for postRoute effortLevel low extraction will be set to 'high'.
+[03/14 13:05:44     23s] 	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode will be 'medium' if Quantus QRC technology file is specified else 'low'.
+[03/14 13:05:44     23s] Stripe will break at block ring.
+[03/14 13:05:44     23s] Extraction setup Delayed 
+[03/14 13:05:44     23s] *Info: initialize multi-corner CTS.
+[03/14 13:05:45     23s] Ending "SetAnalysisView" (total cpu=0:00:00.1, real=0:00:01.0, peak res=759.9M, current mem=577.8M)
+[03/14 13:05:45     23s] Reading timing constraints file '/home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/fullchip.sdc' ...
+[03/14 13:05:45     23s] Current (total cpu=0:00:23.9, real=0:00:36.0, peak res=768.3M, current mem=768.3M)
+[03/14 13:05:45     23s] **WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/fullchip.sdc, Line 9).
+[03/14 13:05:45     23s] 
+[03/14 13:05:45     23s] INFO (CTE): Reading of timing constraints file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/fullchip.sdc completed, with 1 WARNING
+[03/14 13:05:45     23s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=786.1M, current mem=786.1M)
+[03/14 13:05:45     23s] Current (total cpu=0:00:24.0, real=0:00:36.0, peak res=786.1M, current mem=786.1M)
+[03/14 13:05:45     23s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[03/14 13:05:45     23s] Creating Cell Server ...(0, 1, 1, 1)
+[03/14 13:05:45     24s] Summary for sequential cells identification: 
+[03/14 13:05:45     24s]   Identified SBFF number: 199
+[03/14 13:05:45     24s]   Identified MBFF number: 0
+[03/14 13:05:45     24s]   Identified SB Latch number: 0
+[03/14 13:05:45     24s]   Identified MB Latch number: 0
+[03/14 13:05:45     24s]   Not identified SBFF number: 0
+[03/14 13:05:45     24s]   Not identified MBFF number: 0
+[03/14 13:05:45     24s]   Not identified SB Latch number: 0
+[03/14 13:05:45     24s]   Not identified MB Latch number: 0
+[03/14 13:05:45     24s]   Number of sequential cells which are not FFs: 104
+[03/14 13:05:45     24s] Total number of combinational cells: 497
+[03/14 13:05:45     24s] Total number of sequential cells: 303
+[03/14 13:05:45     24s] Total number of tristate cells: 11
+[03/14 13:05:45     24s] Total number of level shifter cells: 0
+[03/14 13:05:45     24s] Total number of power gating cells: 0
+[03/14 13:05:45     24s] Total number of isolation cells: 0
+[03/14 13:05:45     24s] Total number of power switch cells: 0
+[03/14 13:05:45     24s] Total number of pulse generator cells: 0
+[03/14 13:05:45     24s] Total number of always on buffers: 0
+[03/14 13:05:45     24s] Total number of retention cells: 0
+[03/14 13:05:45     24s] List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 BUFFD20 BUFFD24 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
+[03/14 13:05:45     24s] Total number of usable buffers: 27
+[03/14 13:05:45     24s] List of unusable buffers:
+[03/14 13:05:45     24s] Total number of unusable buffers: 0
+[03/14 13:05:45     24s] List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16 INVD20 INVD24
+[03/14 13:05:45     24s] Total number of usable inverters: 27
+[03/14 13:05:45     24s] List of unusable inverters:
+[03/14 13:05:45     24s] Total number of unusable inverters: 0
+[03/14 13:05:45     24s] List of identified usable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
+[03/14 13:05:45     24s] Total number of identified usable delay cells: 9
+[03/14 13:05:45     24s] List of identified unusable delay cells:
+[03/14 13:05:45     24s] Total number of identified unusable delay cells: 0
+[03/14 13:05:45     24s] Creating Cell Server, finished. 
+[03/14 13:05:45     24s] 
+[03/14 13:05:45     24s] Deleting Cell Server ...
+[03/14 13:05:45     24s] % Begin Load MMMC data post ... (date=03/14 13:05:45, mem=808.8M)
+[03/14 13:05:45     24s] % End Load MMMC data post ... (date=03/14 13:05:45, total cpu=0:00:00.0, real=0:00:00.0, peak res=808.8M, current mem=808.0M)
+[03/14 13:05:45     24s] Reading floorplan file - /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.fp.gz (mem = 1050.4M).
+[03/14 13:05:45     24s] % Begin Load floorplan data ... (date=03/14 13:05:45, mem=808.1M)
+[03/14 13:05:45     24s] *info: reset 21123 existing net BottomPreferredLayer and AvoidDetour
+[03/14 13:05:45     24s] net ignore based on current view = 0
+[03/14 13:05:45     24s] Deleting old partition specification.
+[03/14 13:05:45     24s] Set FPlanBox to (0 0 940000 932800)
+[03/14 13:05:45     24s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/14 13:05:45     24s] Type 'man IMPFP-3961' for more detail.
+[03/14 13:05:45     24s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/14 13:05:45     24s] Type 'man IMPFP-3961' for more detail.
+[03/14 13:05:45     24s]  ... processed partition successfully.
+[03/14 13:05:45     24s] Reading binary special route file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.fp.spr.gz (Created by Innovus v19.17-s077_1 on Tue Mar 14 13:00:45 2023, version: 1)
+[03/14 13:05:45     24s] Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=809.3M, current mem=809.3M)
+[03/14 13:05:46     24s] Set (core_instance) in guide (20000 14400 878000 842400)
+[03/14 13:05:46     24s] Extracting standard cell pins and blockage ...... 
+[03/14 13:05:46     24s] Pin and blockage extraction finished
+[03/14 13:05:46     24s] % End Load floorplan data ... (date=03/14 13:05:46, total cpu=0:00:00.1, real=0:00:01.0, peak res=811.4M, current mem=811.4M)
+[03/14 13:05:46     24s] Reading congestion map file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.route.congmap.gz ...
+[03/14 13:05:46     24s] % Begin Load SymbolTable ... (date=03/14 13:05:46, mem=811.7M)
+[03/14 13:05:46     24s] % End Load SymbolTable ... (date=03/14 13:05:46, total cpu=0:00:00.1, real=0:00:00.0, peak res=814.4M, current mem=814.4M)
+[03/14 13:05:46     24s] Loading place ...
+[03/14 13:05:46     24s] % Begin Load placement data ... (date=03/14 13:05:46, mem=814.4M)
+[03/14 13:05:46     24s] Reading placement file - /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.place.gz.
+[03/14 13:05:46     24s] ** Reading stdCellPlacement_binary (Created by Innovus v19.17-s077_1 on Tue Mar 14 13:00:46 2023, version# 2) ...
+[03/14 13:05:46     24s] Read Views for adaptive view pruning ...
+[03/14 13:05:46     24s] Read 0 views from Binary DB for adaptive view pruning
+[03/14 13:05:46     24s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1053.4M) ***
+[03/14 13:05:46     24s] Total net length = 2.082e+01 (1.041e+01 1.041e+01) (ext = 0.000e+00)
+[03/14 13:05:46     24s] % End Load placement data ... (date=03/14 13:05:46, total cpu=0:00:00.0, real=0:00:00.0, peak res=814.7M, current mem=814.5M)
+[03/14 13:05:46     24s] Reading PG file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.pg.gz
+[03/14 13:05:46     24s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1050.4M) ***
+[03/14 13:05:46     24s] % Begin Load routing data ... (date=03/14 13:05:46, mem=814.9M)
+[03/14 13:05:46     24s] Reading routing file - /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.route.gz.
+[03/14 13:05:46     24s] Reading Innovus routing data (Created by Innovus v19.17-s077_1 on Tue Mar 14 13:00:46 2023 Format: 19.1) ...
+[03/14 13:05:46     24s] *** Total 21019 nets are successfully restored.
+[03/14 13:05:46     24s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1054.4M) ***
+[03/14 13:05:46     24s] % End Load routing data ... (date=03/14 13:05:46, total cpu=0:00:00.1, real=0:00:00.0, peak res=820.6M, current mem=819.6M)
+[03/14 13:05:46     24s] TAT_INFO: restoreCongMap REAL = 0 : CPU = 0 : MEM = 0.
+[03/14 13:05:46     24s] Reading property file /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/fullchip.prop
+[03/14 13:05:46     24s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1059.4M) ***
+[03/14 13:05:47     24s] Set Default Input Pin Transition as 0.1 ps.
+[03/14 13:05:47     24s] pesRestorePreRouteExtractionData::readRCCornerMetaData, could not read file: ¨¸Šša
+[03/14 13:05:47     24s] Extraction setup Started 
+[03/14 13:05:47     24s] Initializing multi-corner RC extraction with 2 active RC Corners ...
+[03/14 13:05:47     24s] Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cworst.captable ...
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+[03/14 13:05:47     24s] Reading Capacitance Table File /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cbest.captable ...
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+[03/14 13:05:47     24s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+[03/14 13:05:47     24s] Importing multi-corner RC tables ... 
+[03/14 13:05:47     24s] Summary of Active RC-Corners : 
+[03/14 13:05:47     24s]  
+[03/14 13:05:47     24s]  Analysis View: WC_VIEW
+[03/14 13:05:47     24s]     RC-Corner Name        : Cmax
+[03/14 13:05:47     24s]     RC-Corner Index       : 0
+[03/14 13:05:47     24s]     RC-Corner Temperature : 125 Celsius
+[03/14 13:05:47     24s]     RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cworst.captable'
+[03/14 13:05:47     24s]     RC-Corner PreRoute Res Factor         : 1
+[03/14 13:05:47     24s]     RC-Corner PreRoute Cap Factor         : 1
+[03/14 13:05:47     24s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[03/14 13:05:47     24s]  
+[03/14 13:05:47     24s]  Analysis View: BC_VIEW
+[03/14 13:05:47     24s]     RC-Corner Name        : Cmin
+[03/14 13:05:47     24s]     RC-Corner Index       : 1
+[03/14 13:05:47     24s]     RC-Corner Temperature : -40 Celsius
+[03/14 13:05:47     24s]     RC-Corner Cap Table   : '/home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat/libs/mmmc/cln65g+_1p08m+alrdl_top2_cbest.captable'
+[03/14 13:05:47     24s]     RC-Corner PreRoute Res Factor         : 1
+[03/14 13:05:47     24s]     RC-Corner PreRoute Cap Factor         : 1
+[03/14 13:05:47     24s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[03/14 13:05:47     24s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[03/14 13:05:47     24s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[03/14 13:05:47     24s] LayerId::1 widthSet size::4
+[03/14 13:05:47     24s] LayerId::2 widthSet size::4
+[03/14 13:05:47     24s] LayerId::3 widthSet size::4
+[03/14 13:05:47     24s] LayerId::4 widthSet size::4
+[03/14 13:05:47     24s] LayerId::5 widthSet size::4
+[03/14 13:05:47     24s] LayerId::6 widthSet size::4
+[03/14 13:05:47     24s] LayerId::7 widthSet size::4
+[03/14 13:05:47     24s] LayerId::8 widthSet size::4
+[03/14 13:05:47     24s] Updating RC grid for preRoute extraction ...
+[03/14 13:05:47     24s] Initializing multi-corner capacitance tables ... 
+[03/14 13:05:47     25s] Initializing multi-corner resistance tables ...
+[03/14 13:05:47     25s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
+[03/14 13:05:47     25s] Start generating vias ...
+[03/14 13:05:47     25s] #Skip building auto via since it is not turned on.
+[03/14 13:05:47     25s] Extracting standard cell pins and blockage ...... 
+[03/14 13:05:47     25s] Pin and blockage extraction finished
+[03/14 13:05:47     25s] Via generation completed.
+[03/14 13:05:47     25s] % Begin Load power constraints ... (date=03/14 13:05:47, mem=847.5M)
+[03/14 13:05:47     25s] % End Load power constraints ... (date=03/14 13:05:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=847.5M, current mem=847.5M)
+[03/14 13:05:47     25s] % Begin load AAE data ... (date=03/14 13:05:47, mem=847.5M)
+[03/14 13:05:48     26s] AAE DB initialization (MEM=1102.27 CPU=0:00:00.6 REAL=0:00:01.0) 
+[03/14 13:05:48     26s] % End load AAE data ... (date=03/14 13:05:48, total cpu=0:00:00.9, real=0:00:01.0, peak res=855.1M, current mem=855.1M)
+[03/14 13:05:48     26s] Creating Cell Server ...(0, 1, 1, 1)
+[03/14 13:05:48     26s] Summary for sequential cells identification: 
+[03/14 13:05:48     26s]   Identified SBFF number: 199
+[03/14 13:05:48     26s]   Identified MBFF number: 0
+[03/14 13:05:48     26s]   Identified SB Latch number: 0
+[03/14 13:05:48     26s]   Identified MB Latch number: 0
+[03/14 13:05:48     26s]   Not identified SBFF number: 0
+[03/14 13:05:48     26s]   Not identified MBFF number: 0
+[03/14 13:05:48     26s]   Not identified SB Latch number: 0
+[03/14 13:05:48     26s]   Not identified MB Latch number: 0
+[03/14 13:05:48     26s]   Number of sequential cells which are not FFs: 104
+[03/14 13:05:48     26s] Total number of combinational cells: 497
+[03/14 13:05:48     26s] Total number of sequential cells: 303
+[03/14 13:05:48     26s] Total number of tristate cells: 11
+[03/14 13:05:48     26s] Total number of level shifter cells: 0
+[03/14 13:05:48     26s] Total number of power gating cells: 0
+[03/14 13:05:48     26s] Total number of isolation cells: 0
+[03/14 13:05:48     26s] Total number of power switch cells: 0
+[03/14 13:05:48     26s] Total number of pulse generator cells: 0
+[03/14 13:05:48     26s] Total number of always on buffers: 0
+[03/14 13:05:48     26s] Total number of retention cells: 0
+[03/14 13:05:48     26s] List of usable buffers: BUFFD1 BUFFD0 BUFFD2 BUFFD3 BUFFD4 BUFFD6 BUFFD8 BUFFD12 BUFFD16 CKBD1 CKBD0 CKBD2 CKBD3 CKBD4 CKBD6 CKBD8 CKBD12 CKBD16
+[03/14 13:05:48     26s] Total number of usable buffers: 18
+[03/14 13:05:48     26s] List of unusable buffers: BUFFD20 BUFFD24 CKBD20 CKBD24 GBUFFD1 GBUFFD3 GBUFFD2 GBUFFD4 GBUFFD8
+[03/14 13:05:48     26s] Total number of unusable buffers: 9
+[03/14 13:05:48     26s] List of usable inverters: CKND1 CKND0 CKND2 CKND3 CKND4 CKND6 CKND8 CKND12 CKND16 INVD1 INVD0 INVD2 INVD3 INVD4 INVD6 INVD8 INVD12 INVD16
+[03/14 13:05:48     26s] Total number of usable inverters: 18
+[03/14 13:05:48     26s] List of unusable inverters: CKND20 CKND24 GINVD2 GINVD1 GINVD4 GINVD3 GINVD8 INVD20 INVD24
+[03/14 13:05:48     26s] Total number of unusable inverters: 9
+[03/14 13:05:48     26s] List of identified usable delay cells:
+[03/14 13:05:48     26s] Total number of identified usable delay cells: 0
+[03/14 13:05:48     26s] List of identified unusable delay cells: DEL0 DEL005 DEL01 DEL015 DEL02 DEL1 DEL2 DEL3 DEL4
+[03/14 13:05:48     26s] Total number of identified unusable delay cells: 9
+[03/14 13:05:48     26s] Creating Cell Server, finished. 
+[03/14 13:05:48     26s] 
+[03/14 13:05:48     26s] All delay cells are dont_use. Buffers will be used to fix hold violations.
+[03/14 13:05:48     26s] Deleting Cell Server ...
+[03/14 13:05:48     26s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.17-s077_1. They will be removed in the next release. 
+[03/14 13:05:48     26s] timing_enable_default_delay_arc
+[03/14 13:05:48     26s] #% End load design ... (date=03/14 13:05:48, total cpu=0:00:07.1, real=0:00:08.0, peak res=855.2M, current mem=854.1M)
+[03/14 13:05:48     26s] 
+[03/14 13:05:48     26s] *** Summary of all messages that are not suppressed in this session:
+[03/14 13:05:48     26s] Severity  ID               Count  Summary                                  
+[03/14 13:05:48     26s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[03/14 13:05:48     26s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[03/14 13:05:48     26s] WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
+[03/14 13:05:48     26s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[03/14 13:05:48     26s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[03/14 13:05:48     26s] WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
+[03/14 13:05:48     26s] WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
+[03/14 13:05:48     26s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[03/14 13:05:48     26s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
+[03/14 13:05:48     26s] *** Message Summary: 1637 warning(s), 0 error(s)
+[03/14 13:05:48     26s] 
+[03/14 13:05:53     27s] <CMD> checkPinAssignment
+[03/14 13:05:53     27s] #% Begin checkPinAssignment (date=03/14 13:05:53, mem=862.8M)
+[03/14 13:05:54     28s] Checking pins of top cell fullchip ... completed
+[03/14 13:05:54     28s] 
+[03/14 13:05:54     28s] ===========================================================================================================================
+[03/14 13:05:54     28s]                                                 checkPinAssignment Summary
+[03/14 13:05:54     28s] ===========================================================================================================================
+[03/14 13:05:54     28s] Partition   | pads  | pins   | legal  | illegal | internal | internal illegal | FT     | FT illegal | constant | unplaced |
+[03/14 13:05:54     28s] ===========================================================================================================================
+[03/14 13:05:54     28s] fullchip    |     0 |    195 |     83 |     112 |        0 |                0 |      0 |          0 |        0 |        0 |
+[03/14 13:05:54     28s] ===========================================================================================================================
+[03/14 13:05:54     28s] TOTAL       |     0 |    195 |     83 |     112 |        0 |                0 |      0 |          0 |        0 |        0 |
+[03/14 13:05:54     28s] ===========================================================================================================================
+[03/14 13:05:54     28s] #% End checkPinAssignment (date=03/14 13:05:54, total cpu=0:00:01.1, real=0:00:01.0, peak res=889.8M, current mem=889.3M)
+[03/14 13:06:10     31s] <CMD> legalizePin
+[03/14 13:06:10     31s] #% Begin legalizePin (date=03/14 13:06:10, mem=889.4M)
+[03/14 13:06:10     31s] 
+[03/14 13:06:10     31s] Start pin legalization for the partition [fullchip]:
+[03/14 13:06:10     31s] Moving Pin [out[95]] to LEGAL location ( 159.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[94]] to LEGAL location ( 162.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[93]] to LEGAL location ( 165.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[92]] to LEGAL location ( 168.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[91]] to LEGAL location ( 171.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[90]] to LEGAL location ( 174.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[89]] to LEGAL location ( 177.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[88]] to LEGAL location ( 180.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[87]] to LEGAL location ( 183.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[86]] to LEGAL location ( 186.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[85]] to LEGAL location ( 189.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[84]] to LEGAL location ( 192.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[83]] to LEGAL location ( 195.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[82]] to LEGAL location ( 198.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[81]] to LEGAL location ( 201.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[80]] to LEGAL location ( 204.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[79]] to LEGAL location ( 207.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[78]] to LEGAL location ( 210.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[77]] to LEGAL location ( 213.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[76]] to LEGAL location ( 216.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[75]] to LEGAL location ( 219.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[74]] to LEGAL location ( 222.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[73]] to LEGAL location ( 225.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[72]] to LEGAL location ( 228.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[71]] to LEGAL location ( 231.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[70]] to LEGAL location ( 234.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[69]] to LEGAL location ( 237.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[68]] to LEGAL location ( 240.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[67]] to LEGAL location ( 243.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[66]] to LEGAL location ( 246.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[65]] to LEGAL location ( 249.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[64]] to LEGAL location ( 252.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[63]] to LEGAL location ( 255.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[62]] to LEGAL location ( 258.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[61]] to LEGAL location ( 261.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[60]] to LEGAL location ( 264.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[59]] to LEGAL location ( 267.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[58]] to LEGAL location ( 270.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[57]] to LEGAL location ( 273.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[56]] to LEGAL location ( 276.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[55]] to LEGAL location ( 279.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[54]] to LEGAL location ( 282.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[53]] to LEGAL location ( 285.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[52]] to LEGAL location ( 288.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[51]] to LEGAL location ( 291.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[50]] to LEGAL location ( 294.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[49]] to LEGAL location ( 297.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[48]] to LEGAL location ( 300.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[47]] to LEGAL location ( 303.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[46]] to LEGAL location ( 306.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[45]] to LEGAL location ( 309.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[44]] to LEGAL location ( 312.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[43]] to LEGAL location ( 315.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[42]] to LEGAL location ( 318.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[41]] to LEGAL location ( 321.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[40]] to LEGAL location ( 324.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[39]] to LEGAL location ( 327.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[38]] to LEGAL location ( 330.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[37]] to LEGAL location ( 333.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[36]] to LEGAL location ( 336.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[35]] to LEGAL location ( 339.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[34]] to LEGAL location ( 342.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[33]] to LEGAL location ( 345.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[32]] to LEGAL location ( 348.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[31]] to LEGAL location ( 351.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[30]] to LEGAL location ( 354.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[29]] to LEGAL location ( 357.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[28]] to LEGAL location ( 360.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[27]] to LEGAL location ( 363.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[26]] to LEGAL location ( 366.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[25]] to LEGAL location ( 369.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[24]] to LEGAL location ( 372.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[23]] to LEGAL location ( 375.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[22]] to LEGAL location ( 378.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[21]] to LEGAL location ( 381.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[20]] to LEGAL location ( 384.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[19]] to LEGAL location ( 387.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[18]] to LEGAL location ( 390.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[17]] to LEGAL location ( 393.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[16]] to LEGAL location ( 396.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[15]] to LEGAL location ( 399.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[14]] to LEGAL location ( 402.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[13]] to LEGAL location ( 405.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[12]] to LEGAL location ( 408.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[11]] to LEGAL location ( 411.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[10]] to LEGAL location ( 414.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[9]] to LEGAL location ( 417.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[8]] to LEGAL location ( 420.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[7]] to LEGAL location ( 423.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[6]] to LEGAL location ( 426.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[5]] to LEGAL location ( 429.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[4]] to LEGAL location ( 432.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[3]] to LEGAL location ( 435.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[2]] to LEGAL location ( 438.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[1]] to LEGAL location ( 441.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [out[0]] to LEGAL location ( 444.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[15]] to LEGAL location ( 111.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[14]] to LEGAL location ( 114.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[13]] to LEGAL location ( 117.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[12]] to LEGAL location ( 120.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[11]] to LEGAL location ( 123.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[10]] to LEGAL location ( 126.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[9]] to LEGAL location ( 129.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[8]] to LEGAL location ( 132.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[7]] to LEGAL location ( 135.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[6]] to LEGAL location ( 138.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[5]] to LEGAL location ( 141.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[4]] to LEGAL location ( 144.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[3]] to LEGAL location ( 147.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[2]] to LEGAL location ( 150.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[1]] to LEGAL location ( 153.900    0.000 2 )
+[03/14 13:06:10     31s] Moving Pin [sum_out[0]] to LEGAL location ( 156.900    0.000 2 )
+[03/14 13:06:10     31s] Summary report for top level: [fullchip] 
+[03/14 13:06:10     31s] 	Total Pads                         : 0
+[03/14 13:06:10     31s] 	Total Pins                         : 195
+[03/14 13:06:10     31s] 	Legally Assigned Pins              : 195
+[03/14 13:06:10     31s] 	Illegally Assigned Pins            : 0
+[03/14 13:06:10     31s] 	Unplaced Pins                      : 0
+[03/14 13:06:10     31s] 	Constant/Spl Net Pins              : 0
+[03/14 13:06:10     31s] 	Internal Pins                      : 0
+[03/14 13:06:10     31s] 	Legally Assigned Feedthrough Pins  : 0
+[03/14 13:06:10     31s] 	Illegally Assigned Feedthrough Pins: 0
+[03/14 13:06:10     31s] End of Summary report
+[03/14 13:06:10     31s] 112 pin(s) of the Partition fullchip were legalized.
+[03/14 13:06:10     31s] End pin legalization for the partition [fullchip].
+[03/14 13:06:10     31s] 
+[03/14 13:06:10     31s] #% End legalizePin (date=03/14 13:06:10, total cpu=0:00:00.1, real=0:00:00.0, peak res=890.1M, current mem=889.6M)
+[03/14 13:06:14     32s] <CMD> checkPinAssignment
+[03/14 13:06:14     32s] #% Begin checkPinAssignment (date=03/14 13:06:14, mem=889.6M)
+[03/14 13:06:14     32s] Checking pins of top cell fullchip ... completed
+[03/14 13:06:14     32s] 
+[03/14 13:06:14     32s] ===========================================================================================================================
+[03/14 13:06:14     32s]                                                 checkPinAssignment Summary
+[03/14 13:06:14     32s] ===========================================================================================================================
+[03/14 13:06:14     32s] Partition   | pads  | pins   | legal  | illegal | internal | internal illegal | FT     | FT illegal | constant | unplaced |
+[03/14 13:06:14     32s] ===========================================================================================================================
+[03/14 13:06:14     32s] fullchip    |     0 |    195 |    195 |       0 |        0 |                0 |      0 |          0 |        0 |        0 |
+[03/14 13:06:14     32s] ===========================================================================================================================
+[03/14 13:06:14     32s] TOTAL       |     0 |    195 |    195 |       0 |        0 |                0 |      0 |          0 |        0 |        0 |
+[03/14 13:06:14     32s] ===========================================================================================================================
+[03/14 13:06:14     32s] #% End checkPinAssignment (date=03/14 13:06:14, total cpu=0:00:00.1, real=0:00:00.0, peak res=890.3M, current mem=889.8M)
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -drouteAllowMergedWireAtPin false
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -drouteFixAntenna true
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -routeWithTimingDriven true
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -routeWithSiDriven true
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -routeSiEffort medium
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -routeWithSiPostRouteFix false
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -drouteAutoStop true
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -routeSelectedNetOnly false
+[03/14 13:06:38     36s] <CMD> setNanoRouteMode -quiet -drouteStartIteration default
+[03/14 13:06:38     36s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[03/14 13:06:38     36s] <CMD> routeDesign
+[03/14 13:06:38     36s] #% Begin routeDesign (date=03/14 13:06:38, mem=889.8M)
+[03/14 13:06:38     36s] ### Time Record (routeDesign) is installed.
+[03/14 13:06:38     36s] #routeDesign: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 889.79 (MB), peak = 891.82 (MB)
+[03/14 13:06:38     36s] #Cmax has no qx tech file defined
+[03/14 13:06:38     36s] #No active RC corner or QRC tech file is missing.
+[03/14 13:06:38     36s] #**INFO: setDesignMode -flowEffort standard
+[03/14 13:06:38     36s] #**INFO: multi-cut via swapping will be performed after routing.
+[03/14 13:06:38     36s] #**INFO: All auto set options tuned by routeDesign will be restored to their original settings on command completion.
+[03/14 13:06:38     36s] OPERPROF: Starting checkPlace at level 1, MEM:1140.1M
+[03/14 13:06:38     36s] z: 2, totalTracks: 1
+[03/14 13:06:38     36s] z: 4, totalTracks: 1
+[03/14 13:06:38     36s] z: 6, totalTracks: 1
+[03/14 13:06:38     36s] z: 8, totalTracks: 1
+[03/14 13:06:38     37s] #spOpts: N=65 
+[03/14 13:06:38     37s] # Building fullchip llgBox search-tree.
+[03/14 13:06:38     37s] OPERPROF:   Starting spInitSiteArr at level 2, MEM:1148.1M
+[03/14 13:06:38     37s] OPERPROF:     Starting spiInitFpSiteArr at level 3, MEM:1148.1M
+[03/14 13:06:38     37s] Core basic site is core
+[03/14 13:06:38     37s] Use non-trimmed site array because memory saving is not enough.
+[03/14 13:06:38     37s] SiteArray: non-trimmed site array dimensions = 248 x 2250
+[03/14 13:06:38     37s] SiteArray: use 2,285,568 bytes
+[03/14 13:06:38     37s] SiteArray: current memory after site array memory allocation 1150.2M
+[03/14 13:06:38     37s] SiteArray: FP blocked sites are writable
+[03/14 13:06:39     37s] OPERPROF:     Finished spiInitFpSiteArr at level 3, CPU:0.010, REAL:0.012, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished spInitSiteArr at level 2, CPU:0.010, REAL:0.016, MEM:1150.2M
+[03/14 13:06:39     37s] Begin checking placement ... (start mem=1140.1M, init mem=1150.2M)
+[03/14 13:06:39     37s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.001, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.001, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Starting checkPlace/Loop-Through-Inst-Misc-Oper at level 2, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished checkPlace/Loop-Through-Inst-Misc-Oper at level 2, CPU:0.000, REAL:0.003, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Starting checkPlace/Vio-Check at level 2, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished checkPlace/Vio-Check at level 2, CPU:0.000, REAL:0.002, MEM:1150.2M
+[03/14 13:06:39     37s] *info: Placed = 0             
+[03/14 13:06:39     37s] *info: Unplaced = 19683       
+[03/14 13:06:39     37s] Placement Density:49.98%(100399/200880)
+[03/14 13:06:39     37s] Placement Density (including fixed std cells):49.98%(100399/200880)
+[03/14 13:06:39     37s] OPERPROF:   Starting spSiteCleanup(true) at level 2, MEM:1150.2M
+[03/14 13:06:39     37s] OPERPROF:   Finished spSiteCleanup(true) at level 2, CPU:0.000, REAL:0.001, MEM:1148.1M
+[03/14 13:06:39     37s] Finished checkPlace (total: cpu=0:00:00.2, real=0:00:01.0; vio checks: cpu=0:00:00.0, real=0:00:00.0; mem=1148.1M)
+[03/14 13:06:39     37s] OPERPROF: Finished checkPlace at level 1, CPU:0.160, REAL:0.161, MEM:1148.1M
+[03/14 13:06:39     37s] 
+[03/14 13:06:39     37s] changeUseClockNetStatus Option :  -noFixedNetWires 
+[03/14 13:06:39     37s] *** Changed status on (0) nets in Clock.
+[03/14 13:06:39     37s] *** End changeUseClockNetStatus (cpu=0:00:00.0, real=0:00:00.0, mem=1148.1M) ***
+[03/14 13:06:39     37s] #**INFO: auto set of droutePostRouteSwapVia to multiCut
+[03/14 13:06:39     37s] % Begin globalDetailRoute (date=03/14 13:06:39, mem=897.8M)
+[03/14 13:06:39     37s] 
+[03/14 13:06:39     37s] globalDetailRoute
+[03/14 13:06:39     37s] 
+[03/14 13:06:39     37s] #setNanoRouteMode -drouteAutoStop true
+[03/14 13:06:39     37s] #setNanoRouteMode -drouteFixAntenna true
+[03/14 13:06:39     37s] #setNanoRouteMode -droutePostRouteSwapVia "multiCut"
+[03/14 13:06:39     37s] #setNanoRouteMode -routeConcurrentMinimizeViaCountEffort "high"
+[03/14 13:06:39     37s] #setNanoRouteMode -routeReserveSpaceForMultiCut true
+[03/14 13:06:39     37s] #setNanoRouteMode -routeSelectedNetOnly false
+[03/14 13:06:39     37s] #setNanoRouteMode -routeWithSiDriven true
+[03/14 13:06:39     37s] #setNanoRouteMode -routeWithTimingDriven true
+[03/14 13:06:39     37s] ### Time Record (globalDetailRoute) is installed.
+[03/14 13:06:39     37s] #Start globalDetailRoute on Tue Mar 14 13:06:39 2023
+[03/14 13:06:39     37s] #
+[03/14 13:06:39     37s] ### Time Record (Pre Callback) is installed.
+[03/14 13:06:39     37s] ### Time Record (Pre Callback) is uninstalled.
+[03/14 13:06:39     37s] ### Time Record (DB Import) is installed.
+[03/14 13:06:39     37s] ### Time Record (Timing Data Generation) is installed.
+[03/14 13:06:39     37s] #Generating timing data, please wait...
+[03/14 13:06:39     37s] #21017 total nets, 0 already routed, 0 will ignore in trialRoute
+[03/14 13:06:39     37s] ### run_trial_route starts on Tue Mar 14 13:06:39 2023 with memory = 875.59 (MB), peak = 907.71 (MB)
+[03/14 13:06:39     37s] **ERROR: Design must be placed before running earlyGlobalRoute
+[03/14 13:06:39     37s] ### run_trial_route cpu:00:00:00, real:00:00:00, mem:876.2 MB, peak:907.7 MB
+[03/14 13:06:39     37s] ### dump_timing_file starts on Tue Mar 14 13:06:39 2023 with memory = 876.18 (MB), peak = 907.71 (MB)
+[03/14 13:06:39     37s] ### extractRC starts on Tue Mar 14 13:06:39 2023 with memory = 876.19 (MB), peak = 907.71 (MB)
+[03/14 13:06:39     37s] ### extractRC cpu:00:00:00, real:00:00:00, mem:876.2 MB, peak:907.7 MB
+[03/14 13:06:39     37s] #Dump tif for version 2.1
+[03/14 13:06:40     38s] Start AAE Lib Loading. (MEM=1183.66)
+[03/14 13:06:40     38s] End AAE Lib Loading. (MEM=1213.27 CPU=0:00:00.0 Real=0:00:00.0)
+[03/14 13:06:40     38s] End AAE Lib Interpolated Model. (MEM=1213.27 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[03/14 13:06:40     38s] First Iteration Infinite Tw... 
+[03/14 13:06:43     41s] Total number of fetched objects 21039
+[03/14 13:06:43     41s] End Timing Check Calculation. (CPU Time=0:00:00.1, Real Time=0:00:00.0)
+[03/14 13:06:43     41s] End delay calculation. (MEM=1304.04 CPU=0:00:02.6 REAL=0:00:02.0)
+[03/14 13:06:46     44s] #Generating timing data took: cpu time = 00:00:07, elapsed time = 00:00:07, memory = 967.45 (MB), peak = 978.20 (MB)
+[03/14 13:06:46     44s] ### dump_timing_file cpu:00:00:07, real:00:00:07, mem:967.5 MB, peak:978.2 MB
+[03/14 13:06:46     44s] #Done generating timing data.
+[03/14 13:06:46     44s] ### Time Record (Timing Data Generation) is uninstalled.
+[03/14 13:06:46     44s] #ERROR (NRIG-69) INSTANCE core_instance/mac_array_instance/col_idx_1__mac_col_inst/mac_16in_instance/U1 is unplaced. All instances must be placed before routing. Place the instance before continuing.
+[03/14 13:06:46     44s] ### Time Record (DB Import) is uninstalled.
+[03/14 13:06:46     44s] #Cpu time = 00:00:07
+[03/14 13:06:46     44s] #Elapsed time = 00:00:07
+[03/14 13:06:46     44s] #Increased memory = 20.75 (MB)
+[03/14 13:06:46     44s] #Total memory = 918.59 (MB)
+[03/14 13:06:46     44s] #Peak memory = 978.20 (MB)
+[03/14 13:06:46     44s] #WARNING (NRIF-19) Failed to complete globalDetailRoute on Tue Mar 14 13:06:46 2023
+[03/14 13:06:46     44s] #
+[03/14 13:06:46     44s] ### Time Record (globalDetailRoute) is uninstalled.
+[03/14 13:06:46     44s] % End globalDetailRoute (date=03/14 13:06:46, total cpu=0:00:07.4, real=0:00:07.0, peak res=978.2M, current mem=918.8M)
+[03/14 13:06:46     44s] #Default setup view is reset to WC_VIEW.
+[03/14 13:06:46     44s] #routeDesign: cpu time = 00:00:08, elapsed time = 00:00:08, memory = 911.30 (MB), peak = 978.20 (MB)
+[03/14 13:06:46     44s] *** Message Summary: 0 warning(s), 0 error(s)
+[03/14 13:06:46     44s] 
+[03/14 13:06:46     44s] ### Time Record (routeDesign) is uninstalled.
+[03/14 13:06:46     44s] ### 
+[03/14 13:06:46     44s] ###   Scalability Statistics
+[03/14 13:06:46     44s] ### 
+[03/14 13:06:46     44s] ### --------------------------------+----------------+----------------+----------------+
+[03/14 13:06:46     44s] ###   routeDesign                   |        cpu time|    elapsed time|     scalability|
+[03/14 13:06:46     44s] ### --------------------------------+----------------+----------------+----------------+
+[03/14 13:06:46     44s] ###   Pre Callback                  |        00:00:00|        00:00:00|             1.0|
+[03/14 13:06:46     44s] ###   Timing Data Generation        |        00:00:07|        00:00:07|             1.0|
+[03/14 13:06:46     44s] ###   DB Import                     |        00:00:00|        00:00:00|             1.0|
+[03/14 13:06:46     44s] ###   Entire Command                |        00:00:08|        00:00:08|             1.0|
+[03/14 13:06:46     44s] ### --------------------------------+----------------+----------------+----------------+
+[03/14 13:06:46     44s] ### 
+[03/14 13:06:46     44s] #% End routeDesign (date=03/14 13:06:46, total cpu=0:00:07.7, real=0:00:08.0, peak res=978.2M, current mem=911.3M)
+[03/14 13:06:46     44s] 0
+[03/14 13:07:41     54s] 
 --------------------------------------------------------------------------------
-Exiting Innovus on Sun Mar 12 16:22:58 2023
-  Total CPU time:     0:01:36
-  Total real time:    0:05:48
-  Peak memory (main): 1015.08MB
+Exiting Innovus on Tue Mar 14 13:07:41 2023
+  Total CPU time:     0:00:57
+  Total real time:    0:02:34
+  Peak memory (main): 913.49MB
 
-[03/12 16:22:58     96s] 
-[03/12 16:22:58     96s] *** Memory Usage v#1 (Current mem = 1298.645M, initial mem = 283.785M) ***
-[03/12 16:22:58     96s] 
-[03/12 16:22:58     96s] *** Summary of all messages that are not suppressed in this session:
-[03/12 16:22:58     96s] Severity  ID               Count  Summary                                  
-[03/12 16:22:58     96s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
-[03/12 16:22:58     96s] WARNING   IMPFP-325            1  Floorplan of the design is resized. All ...
-[03/12 16:22:58     96s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
-[03/12 16:22:58     96s] WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
-[03/12 16:22:58     96s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
-[03/12 16:22:58     96s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
-[03/12 16:22:58     96s] WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
-[03/12 16:22:58     96s] WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
-[03/12 16:22:58     96s] WARNING   IMPDC-1629           1  The default delay limit was set to %d. T...
-[03/12 16:22:58     96s] WARNING   IMPSR-1254           2  Unable to connect the specified objects,...
-[03/12 16:22:58     96s] WARNING   IMPSR-1256           2  Unable to find any CORE class pad pin of...
-[03/12 16:22:58     96s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
-[03/12 16:22:58     96s] *** Message Summary: 1642 warning(s), 0 error(s)
-[03/12 16:22:58     96s] 
-[03/12 16:22:58     96s] --- Ending "Innovus" (totcpu=0:01:36, real=0:05:47, mem=1298.6M) ---
+[03/14 13:07:41     54s] 
+[03/14 13:07:41     54s] *** Memory Usage v#1 (Current mem = 1207.441M, initial mem = 283.785M) ***
+[03/14 13:07:41     54s] 
+[03/14 13:07:41     54s] *** Summary of all messages that are not suppressed in this session:
+[03/14 13:07:41     54s] Severity  ID               Count  Summary                                  
+[03/14 13:07:41     54s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[03/14 13:07:41     54s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[03/14 13:07:41     54s] WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
+[03/14 13:07:41     54s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[03/14 13:07:41     54s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[03/14 13:07:41     54s] WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
+[03/14 13:07:41     54s] WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
+[03/14 13:07:41     54s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[03/14 13:07:41     54s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[03/14 13:07:41     54s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
+[03/14 13:07:41     54s] *** Message Summary: 1638 warning(s), 0 error(s)
+[03/14 13:07:41     54s] 
+[03/14 13:07:41     54s] --- Ending "Innovus" (totcpu=0:00:55.0, real=0:02:32, mem=1207.4M) ---

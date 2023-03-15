@@ -3,7 +3,7 @@
 Report : reference
 Design : fullchip
 Version: Q-2019.12-SP5-3
-Date   : Sun Mar 12 16:02:23 2023
+Date   : Tue Mar 14 12:24:38 2023
 ****************************************
 
 Attributes:
@@ -20,9 +20,9 @@ Attributes:
 Reference          Library       Unit Area   Count    Total Area   Attributes
 -----------------------------------------------------------------------------
 TIEL               tcbn65gplustc
-                                  1.080000      24     25.920001  
-core_col8_bw8_bw_psum20_pr16  225327.597047
-                                                 1  225327.597047 h, n
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  100381.318449
+                                                 1  100381.318449 h, n
 -----------------------------------------------------------------------------
-Total 2 references                                  225353.517048
+Total 2 references                                  100398.598449
 1

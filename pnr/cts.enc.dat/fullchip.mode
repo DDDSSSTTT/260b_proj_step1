@@ -37,7 +37,6 @@ catch { setDelayCalMode -eng_tcSlewMargin -1e-12 }
 catch { setDelayCalMode -engine aae }
 catch { setDelayCalMode -ignoreNetLoad false }
 catch { setPinAssignMode -pinEditInBatch false }
-catch { setEditMode -type regular }
 catch { setSIMode -separate_delta_delay_on_data true }
 catch { setAddStripeMode -break_at block_ring }
 catch { setFPlanMode -maxIoHeight false }

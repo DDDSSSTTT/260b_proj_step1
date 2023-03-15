@@ -1,0 +1,1 @@
+s1(14Mar2023:22:18:41):  xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale -v ./netlist/fullchip.pnr.v -v /home/linux/ieng6/ee260bwi23/public/PDKdata/verilog/tcbn65gplus.v ./netlist/fullchip_tb.v 

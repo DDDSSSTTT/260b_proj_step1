@@ -2,7 +2,7 @@
 // Please do not spread this code without permission 
 module mac_16in (out, a, b);
 
-parameter bw = 8;
+parameter bw = 4;
 parameter bw_psum = 2*bw+6;
 parameter pr = 64; // parallel factor: number of inputs = 64
 
