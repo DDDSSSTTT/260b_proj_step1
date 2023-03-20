@@ -2,4 +2,6 @@
 // File created by:  xrun
 // Do not modify this file
 
-s1::(14Mar2023:22:18:41):( xrun +gui +access+rwc +xm64bit +xmstatus +xmtimescale+1ns/1ps +xmoveride_timescale -v ./netlist/fullchip.pnr.v -v /home/linux/ieng6/ee260bwi23/public/PDKdata/verilog/tcbn65gplus.v ./netlist/fullchip_tb.v )
+s1::(19Mar2023:15:00:08):( xrun -define INITIALIZE_MEMORY -xminitialize 0 -ncinitialize rand_2state:1 +gui +access+rwc +xm64bit +xmstatus +xmseq_udp_delay+20ps +xmtimescale+1ns/1ps +xmoveride_timescale -v ./netlist/fullchip.out.v -v /home/linux/ieng6/ee260bwi23/public/PDKdata/verilog/tcbn65gplus.v ./netlist/fullchip_tb.v )
+s2::(19Mar2023:16:00:38):( xrun -define INITIALIZE_MEMORY -xminitialize 0 -ncinitialize rand_2state:1 +gui +access+rwc +xm64bit +xmstatus +xmseq_udp_delay+20ps +xmtimescale+1ns/1ps +xmoveride_timescale -v ./netlist/fullchip.out.v -v /home/linux/ieng6/ee260bwi23/public/PDKdata/verilog/tcbn65gplus.v ./netlist/fullchip_tb.v )
+s3::(19Mar2023:21:17:12):( xrun -define INITIALIZE_MEMORY -xminitialize 0 -ncinitialize rand_2state:1 +gui +access+rwc +xm64bit +xmstatus +xmseq_udp_delay+20ps +xmtimescale+1ns/1ps +xmoveride_timescale -v ./netlist/fullchip.pnr.v -v /home/linux/ieng6/ee260bwi23/public/PDKdata/verilog/tcbn65gplus.v ./netlist/fullchip_tb.v )

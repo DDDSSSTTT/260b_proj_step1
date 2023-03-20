@@ -175,7 +175,7 @@ $display("##### Estimated multiplication result #####");
      end
 
      //$display("%d %d %d %d %d %d %d %d", result[t][0], result[t][1], result[t][2], result[t][3], result[t][4], result[t][5], result[t][6], result[t][7]);
-     $display("prd @cycle%2d: %40h", t, temp16b);
+     $display("prd @cycle%2d: %24h", t, temp16b);
   end
 
 //////////////////////////////////////////////

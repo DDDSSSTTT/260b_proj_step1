@@ -2,7 +2,11 @@
 // File created by:  xrun
 // Do not modify this file
 //
+-XMINITIALIZE
+-XMINITIALIZE
 -ACCESS
 +rwc
+-SEQ_UDP_DELAY
+20ps
 -timescale
 1ns/1ps

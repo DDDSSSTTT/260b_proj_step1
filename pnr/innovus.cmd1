@@ -1,7 +1,7 @@
 #######################################################
 #                                                     
 #  Innovus Command Logging File                     
-#  Created on Tue Mar 14 13:05:28 2023                
+#  Created on Sun Mar 19 18:35:27 2023                
 #                                                     
 #######################################################
 
@@ -16,19 +16,11 @@
 set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
 suppressMessage ENCEXT-2799
 win
-setDrawView fplan
 is_common_ui_mode
-restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/floorplan.enc.dat fullchip
-checkPinAssignment
-legalizePin
-checkPinAssignment
-setNanoRouteMode -quiet -drouteAllowMergedWireAtPin false
-setNanoRouteMode -quiet -drouteFixAntenna true
-setNanoRouteMode -quiet -routeWithTimingDriven true
-setNanoRouteMode -quiet -routeWithSiDriven true
-setNanoRouteMode -quiet -routeSiEffort medium
-setNanoRouteMode -quiet -routeWithSiPostRouteFix false
-setNanoRouteMode -quiet -drouteAutoStop true
-setNanoRouteMode -quiet -routeSelectedNetOnly false
-setNanoRouteMode -quiet -drouteStartIteration default
-routeDesign
+restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/step1/pnr/placement.enc.dat fullchip
+set_ccopt_property -update_io_latency false
+create_ccopt_clock_tree_spec -file .//constraints/fullchip.ccopt
+ccopt_design
+set_propagated_clock [all_clocks]
+optDesign -postCTS -hold
+saveDesign cts.enc

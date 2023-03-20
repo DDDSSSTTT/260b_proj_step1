@@ -1,7 +1,7 @@
 #######################################################
 #                                                     
 #  Innovus Command Logging File                     
-#  Created on Tue Mar 14 15:45:40 2023                
+#  Created on Sun Mar 19 20:21:44 2023                
 #                                                     
 #######################################################
 
@@ -17,7 +17,7 @@ set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
 suppressMessage ENCEXT-2799
 win
 is_common_ui_mode
-restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/260b_proj_step1/pnr/cts.enc.dat fullchip
+restoreDesign /home/linux/ieng6/ee260bwi23/s1ding/step1/pnr/cts.enc.dat fullchip
 setNanoRouteMode -quiet -drouteAllowMergedWireAtPin false
 setNanoRouteMode -quiet -drouteFixAntenna true
 setNanoRouteMode -quiet -routeWithTimingDriven true
@@ -37,25 +37,12 @@ optDesign -postRoute -inc
 saveDesign route.enc
 verifyGeometry
 verifyConnectivity
-optDesign -postRoute - drv
+report_timing -max_paths 5 > ${design}.post_route.timing.rpt
+report_power -outfile fullchip.post_route.power.rpt
+summaryReport -nohtml -outfile fullchip.post_route.summary.rpt
+verifyGeometry
 optDesign -postRoute -drv
-verifyConnectivity
 verifyGeometry
-zoomBox 266.90700 167.62150 378.38250 268.62700
-zoomBox 278.51650 174.67350 373.27050 260.52800
-zoomBox -298.13200 -179.06650 623.87750 656.34550
-zoomBox -411.69750 -248.88400 673.01950 733.95350
-zoomBox -545.30400 -331.02200 730.83350 825.25750
-zoomBox -411.69750 -248.88400 673.01950 733.95350
-zoomBox -49.80650 -26.40200 516.42300 486.64550
-zoomBox 9.47550 10.04300 490.77050 446.13350
-zoomBox 59.86500 41.02150 468.96600 411.69850
-zoomBox 102.69600 67.35300 450.43200 382.42850
-zoomBox 59.86450 41.02100 468.96600 411.69850
-zoomBox 9.47450 10.04200 490.77050 446.13350
-zoomBox -49.80750 -26.40300 516.42300 486.64550
-verifyGeometry
-verifyConnectivity
 verifyGeometry
 verifyConnectivity
 report_timing -max_paths 5 > ${design}.post_route.timing.rpt

@@ -1,8 +1,12 @@
 xrun \
+-define INITIALIZE_MEMORY \
+-xminitialize 0 \
+-ncinitialize rand_2state:1 \
 +gui \
 +access+rwc \
 +xm64bit \
 +xmstatus \
++xmseq_udp_delay+20ps \
 +xmtimescale+1ns/1ps \
 +xmoveride_timescale \
 -v ./netlist/fullchip.pnr.v \

@@ -3,7 +3,7 @@
 Report : reference
 Design : fullchip
 Version: Q-2019.12-SP5-3
-Date   : Tue Mar 14 12:24:38 2023
+Date   : Sun Mar 19 12:31:54 2023
 ****************************************
 
 Attributes:
@@ -21,8 +21,144 @@ Reference          Library       Unit Area   Count    Total Area   Attributes
 -----------------------------------------------------------------------------
 TIEL               tcbn65gplustc
                                   1.080000      16     17.280001  
-core_col8_bw4_bw_psum12_pr16  100381.318449
-                                                 1  100381.318449 h, n
+core_col8_bw4_bw_psum12_pr16  94534.198532       1  94534.198532  h, n
 -----------------------------------------------------------------------------
-Total 2 references                                  100398.598449
+Total 2 references                                  94551.478533
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 19 12:50:22 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+TIEL               tcbn65gplustc
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  94534.198532       1  94534.198532  h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  94551.478533
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 19 12:56:01 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+TIEL               tcbn65gplustc
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  94181.758248       1  94181.758248  h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  94199.038249
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 19 13:20:44 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+TIEL               tcbn65gplustc
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  99728.278460       1  99728.278460  h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  99745.558461
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 19 14:56:03 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+TIEL               tcbn65gplustc
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  102725.638870
+                                                 1  102725.638870 h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  102742.918871
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Sun Mar 19 15:47:30 2023
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+TIEL               tcbn65gplustc
+                                  1.080000      16     17.280001  
+core_col8_bw4_bw_psum12_pr16  102904.558889
+                                                 1  102904.558889 h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  102921.838890
 1

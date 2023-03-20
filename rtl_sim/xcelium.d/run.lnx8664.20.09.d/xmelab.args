@@ -7,13 +7,17 @@
 +access+rwc
 +xm64bit
 +xmstatus
++xmseq_udp_delay+20ps
 +xmtimescale+1ns/1ps
 -ACCESS
 +rwc
 -STATUS
+-SEQ_UDP_DELAY
+20ps
 -timescale
 1ns/1ps
 -MESSAGES
+-XMINITIALIZE
 -XLMODE
 ./xcelium.d/run.lnx8664.20.09.d
 -RUNMODE
